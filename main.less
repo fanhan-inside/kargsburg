@@ -1,0 +1,99 @@
+@htmlbgcolor: dimgray;
+@bodybgcolor: ivory;
+@bodywidth: 1440px;
+@mainwidth: 1350px;
+
+.h1bg() {
+    background: radial-gradient(farthest-corner at 0 0, beige, antiquewhite);
+}
+
+.margin() {
+    margin: 1rem auto;
+}
+
+.padding() {
+    padding: 1rem;
+}
+
+.bounded() {
+    box-sizing: content-box;
+    line-height: 2rem;
+    .margin();
+    .padding();
+}
+
+.imginline() {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+hr.signature {
+    background: transparent;
+    border: none;
+    width: 50%;
+    margin: auto;
+
+    &::before {
+        content: url(image/heraldry_small.svg);
+        .imginline();
+    }
+
+    &::after {
+        content: url(image/signature.svg);
+        .imginline();
+    }
+}
+
+html {
+    background-color: @htmlbgcolor;
+    min-width: @bodywidth;
+}
+
+body {
+    background-color: @bodybgcolor;
+    width: @bodywidth;
+    .margin();
+}
+
+main {
+    background-color: transparent;
+    width: @mainwidth;
+    .margin();
+}
+
+header {
+    .bounded();
+}
+
+footer {
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem 0;
+    border-top: 3px double dimgray;
+}
+
+p,
+ol,
+ul,
+dl {
+    .padding();
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+dt {
+    font-weight: bold;
+}
+
+h1 {
+    .h1bg();
+    .padding();
+
+    &::before {
+        content: url(image/karg.svg);
+        vertical-align: middle;
+        margin-right: 1rem;
+    }
+}
