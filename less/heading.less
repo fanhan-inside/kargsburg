@@ -1,0 +1,64 @@
+h1 {
+    background: radial-gradient(farthest-corner at 0 0, beige, antiquewhite);
+    .padding();
+
+    &::before {
+        content: url(image/karg.svg);
+        vertical-align: middle;
+        margin-right: 1rem;
+    }
+}
+
+.heading {
+    span {
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        box-sizing: border-box;
+        padding: 0.5rem 1rem;
+        border: none;
+    }
+}
+
+h2.heading {
+    margin: 2rem 0;
+    padding: 0.5rem 1rem;
+    border-top: 3px double royalblue;
+    border-left: 3px double royalblue;
+}
+
+h3.heading {
+    font-size: 1.5rem;
+
+    span {
+        border-top: 2px solid gray;
+        border-left: 2px solid gray;
+    }
+}
+
+h4.heading {
+    font-size: 1.25rem;
+
+    span {
+        border-top: 2px dashed gray;
+        border-left: 2px dashed gray;
+    }
+}
+
+h5.heading {
+    font-size: 1rem;
+
+    span {
+        border-bottom: 1px solid gray;
+        border-right: 1px solid gray;
+    }
+}
+
+h6.heading {
+    font-size: 1rem;
+
+    span {
+        border-bottom: 1px dashed gray;
+        border-right: 1px dashed gray;
+    }
+}

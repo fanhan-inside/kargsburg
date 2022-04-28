@@ -12,15 +12,19 @@
             background: url(image/heraldry_large.svg) top right no-repeat;
         }
 
-        #timeline{
+        #TOC {
             background: url(image/qed.svg) bottom right no-repeat;
         }
 
-        #timeline::before {
+        #TOC::before {
             content: "范狂夫在行动";
             font-size: 2rem;
         }
 
+        a.hasimg:hover {
+            background-color: initial;
+            color: initial;
+        }
     </style>
 </head>
 
@@ -35,12 +39,17 @@
             <dt>最近处境</dt>
             <dd>饥寒交迫伤病缠身苟延残喘风烛残年时日无多命不久矣</dd>
             <dt>博客主页</dt>
-            <dd><a target="_blank" href="https://fanhan-inside.bitbucket.io"><img src="image/title.svg" /></a></dd>
+            <dd><a class="hasimg" target="_blank" href="https://fanhan-inside.bitbucket.io"><img src="image/title.svg" /></a></dd>
         </dl>
         <hr class="signature" />
     </header>
-    <main id="timeline">
-        <p>（暂无）</p>
+    <main id="TOC">
+        <ul>
+            <li><a class="alone" href="https://fanhan-inside.bitbucket.io/fantacy/fanism/toc.html">《范版西幻设定集》</a>（《<ruby>卡壳世界<rt>The Kock World</rt></ruby>》）</li>
+            <li><a class="alone" href="https://fanhan-inside.bitbucket.io/fantacy/bizzare/toc.html">《范版东幻异闻录》</a>（《<ruby lang="ja">邦昌時代<rt>くにまさじだい</rt></ruby>》）</li>
+            <li><a class="alone" href="https://fanhan-inside.bitbucket.io/mathematics/fanism/toc.html">《范版数学恶补记》</a></li>
+            <li><a class="alone" href="https://fanhan-inside.bitbucket.io/essay/toc.html">《囧斋随笔》</a></li>
+        </ul>
     </main>
     <footer>
         <div>Copyright© fANhAN iNSiDE, All Rights Reserved.</div>

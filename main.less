@@ -1,31 +1,6 @@
-@htmlbgcolor: dimgray;
-@bodybgcolor: ivory;
-@bodywidth: 1440px;
-@mainwidth: 1350px;
-
-.h1bg() {
-    background: radial-gradient(farthest-corner at 0 0, beige, antiquewhite);
-}
-
-.margin() {
-    margin: 1rem auto;
-}
-
-.padding() {
-    padding: 1rem;
-}
-
-.bounded() {
-    box-sizing: content-box;
-    line-height: 2rem;
-    .margin();
-    .padding();
-}
-
-.imginline() {
-    display: inline-block;
-    vertical-align: middle;
-}
+@import "less/def.less";
+@import "less/heading.less";
+@import "less/link.less";
 
 hr.signature {
     background: transparent;
@@ -62,7 +37,8 @@ main {
 }
 
 header {
-    .bounded();
+    .margin();
+    .padding();
 }
 
 footer {
@@ -76,6 +52,8 @@ p,
 ol,
 ul,
 dl {
+    box-sizing: content-box;
+    line-height: 2rem;
     .padding();
 }
 
@@ -85,15 +63,4 @@ ol {
 
 dt {
     font-weight: bold;
-}
-
-h1 {
-    .h1bg();
-    .padding();
-
-    &::before {
-        content: url(image/karg.svg);
-        vertical-align: middle;
-        margin-right: 1rem;
-    }
 }
