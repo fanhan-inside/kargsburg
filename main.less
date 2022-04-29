@@ -1,6 +1,7 @@
 @import "less/def.less";
 @import "less/heading.less";
 @import "less/link.less";
+@import "less/emphasis.less";
 
 hr.signature {
     background: transparent;
@@ -63,4 +64,10 @@ ol {
 
 dt {
     font-weight: bold;
+}
+
+img {
+    &.inline {
+        .imginline();
+    }
 }

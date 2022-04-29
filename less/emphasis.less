@@ -1,0 +1,201 @@
+.blank {
+    margin: 0 1px;
+    padding: 0 1px;
+}
+
+.dot {
+    text-emphasis: dot;
+    text-emphasis-position: under right;
+}
+
+.circle {
+    text-emphasis: circle;
+    text-emphasis-position: under right;
+}
+
+.triangle {
+    text-emphasis: triangle;
+    text-emphasis-position: under right;
+}
+
+mark {
+    &:extend(.blank);
+    background-color: yellow;
+
+    &.pink {
+        background-color: lightpink;
+    }
+
+    &.cyan {
+        background-color: lightcyan;
+    }
+
+    &.lime {
+        background-color: lightgreen;
+    }
+}
+
+
+b {
+    font-weight: bold;
+}
+
+i {
+    font-style: oblique;
+}
+
+u {
+    text-decoration: solid underline;
+}
+
+em {
+    font-style: normal;
+    color: blue;
+}
+
+strong {
+    font-weight: bold;
+    font-style: normal;
+    color: red;
+}
+
+s {
+    &:extend(.blank);
+    background-color: lightgray;
+    text-decoration: black wavy line-through;
+
+    &.red {
+        text-decoration-color: red;
+    }
+
+    &.green {
+        text-decoration-color: darkgreen;
+    }
+
+    &.blue {
+        text-decoration-color: blue;
+    }
+}
+
+del {
+    &:extend(.blank);
+    text-decoration: black double line-through;
+
+    &.red {
+        text-decoration-color: red;
+    }
+
+    &.green {
+        text-decoration-color: darkgreen;
+    }
+
+    &.blue {
+        text-decoration-color: blue;
+    }
+}
+
+ins {
+    &:extend(.blank);
+    font-style: normal;
+    text-decoration: none;
+
+    &.red {
+        color: darkred;
+    }
+
+    &.green {
+        color: darkgreen;
+    }
+
+    &.blue {
+        color: darkblue;
+    }
+}
+
+cite {
+    &:extend(.blank);
+    font-style: normal;
+    text-emphasis: none;
+    text-decoration: none;
+    border-bottom: 1px solid blue;
+}
+
+dfn {
+    &:extend(.blank);
+    font-style: normal;
+    text-emphasis: none;
+    text-decoration: none;
+    border-bottom: 1px solid darkcyan;
+}
+
+abbr {
+    &:extend(.blank);
+    font-style: normal;
+    text-emphasis: none;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+
+    &.who {
+        border-bottom: 1px solid red;
+    }
+
+    &.where {
+        border-bottom: 1px solid darkblue;
+    }
+
+    &.pseudo {
+        border-bottom: 1px solid green;
+    }
+
+    &.uid {
+        font-weight: bold;
+        margin: none;
+        padding: none;
+        border: none;
+    }
+
+    &.uid::before {
+        content: '｛';
+        margin: 0 1px;
+    }
+
+    &.uid::after {
+        content: '｝';
+        margin: 0 1px;
+    }
+
+    &.myself {
+        font-weight: bold;
+        margin: none;
+        padding: none;
+        border: none;
+        color: blue;
+    }
+
+    &.myself::before {
+        content: '〔';
+        margin: 0 1px;
+    }
+
+    &.myself::after {
+        content: '〕';
+        margin: 0 1px;
+    }
+
+    &.nt {
+        font-weight: bold;
+        margin: none;
+        padding: none;
+        border: none;
+        color: black;
+    }
+
+    &.nt::after {
+        content: "V";
+        background-color: red;
+        font-size: 50%;
+        color: yellow;
+        margin: 4px;
+        padding: 0 4px;
+    }
+}

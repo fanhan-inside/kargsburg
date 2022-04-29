@@ -5,11 +5,15 @@
     <meta type="text/html" lang="zh" charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="image/icon.svg" />
     <link rel="stylesheet/less" type="text/css" href="main.less" />
-    <script src="https://cdn.jsdelivr.net/npm/less@4"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/less.js/4.1.2/less.min.js"></script>
     <title>Kargsburg</title>
     <style type="text/css">
         #profile {
             background: url(image/heraldry_large.svg) top right no-repeat;
+        }
+
+        #profile dt {
+            font-size: 125%;
         }
 
         #TOC {
@@ -19,6 +23,34 @@
         #TOC::before {
             content: "范狂夫在行动";
             font-size: 2rem;
+        }
+
+        #anonym {
+            box-sizing: border-box;
+            justify-content: center;
+            display: flex;
+        }
+
+        #anonym dt {
+            font-size: 150%;
+        }
+
+        #anonym dt img {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        #anonym dd {
+            margin-left: 70px;
+        }
+
+        #anonym q:lang(el) {
+            font-size: 125%;
+        }
+
+        #works {
+            columns: 2;
         }
 
         a.hasimg:hover {
@@ -44,11 +76,109 @@
         <hr class="signature" />
     </header>
     <main id="TOC">
-        <ul>
-            <li><a class="alone" target="_blank" href="https://fanhan-inside.bitbucket.io/fantasy/fanism/toc.html">《范版西幻设定集》</a>（《<ruby>卡壳世界<rt>The Kock World</rt></ruby>》）</li>
-            <li><a class="alone" target="_blank" href="https://fanhan-inside.bitbucket.io/fantasy/bizarre/toc.html">《范版东幻异闻录》</a>（《<ruby lang="ja">邦昌時代<rt>くにまさじだい</rt></ruby>》）</li>
-            <li><a class="alone" target="_blank" href="https://fanhan-inside.bitbucket.io/mathematics/fanism/toc.html">《范版数学恶补记》</a></li>
-            <li><a class="alone" target="_blank" href="https://fanhan-inside.bitbucket.io/essay/toc.html">《囧斋随笔》</a></li>
+        <h2 class="heading">范狂夫行不更名坐不改姓：「当时我就念了两句诗……」「你没有资格念他的诗！」「嗤。你也配念诗？」</h2>
+        <div id="anonym">
+            <dl>
+                <dt><img src="image/avatar/希帕索斯十字.png" />范狂夫（van Confucia）</dt>
+                <dd>故人心似中秋月，肯为狂夫照白头。</dd>
+                <dt><img src="image/avatar/铁■无敌范中出.png" />范客翁</dt>
+                <dd>行路八千常是客，丈夫五十未称翁。</dd>
+                <dt><img src="image/avatar/铁■无敌范中出.png" />范骨苔</dt>
+                <dd>不令金樽映翠杓，坐待白骨生苍苔。</dd>
+                <dt><img src="image/avatar/铁■无敌范中出.png" />范闷诗</dt>
+                <dd>清尊与闷都倾尽，倦马和诗总勒回。</dd>
+                <dt><img src="image/avatar/铁■无敌范中出.png" />范觞杀</dt>
+                <dd>招得榴花共一觞，艾人笑杀老夫狂。</dd>
+                <dt><img src="image/avatar/铁■无敌范中出.png" />范文简（Fanism &amp; Minimalism）</dt>
+                <dd>勤学好问曰文，平易不懈曰简。</dd>
+                <dt><img src="image/avatar/铁■无敌范中出.png" />范仲拙（<code style="font-size: 16px;">.f'h@N#</code>）</dt>
+                <dd><span style="background-color: black; color: lightgrey; font-size: 16px; font-family: monospace; padding: 4px 8px;">fANhAN iNSiDE</span></dd>
+                <dt><img src="image/avatar/希帕索斯十字.png" />范硁然（van Canyon）</dt>
+                <dd>言必信，行必果，硁硁然。</dd>
+                <dt><img src="image/avatar/希帕索斯十字.png" />范书藤</dt>
+                <dd>※&emsp;角色「Johannes Александрович van Schooten」</dd>
+                <dt><img src="image/avatar/希帕索斯十字.png" />范翗翷</dt>
+                <dd>※&emsp;角色「Petrus Константинович van Ceulen」</dd>
+                <dt><img src="image/avatar/希帕索斯十字.png" />范铝杯</dt>
+                <dd>※&emsp;角色「Herry(Heinrich) van Lübeck」</dd>
+                <dt><img src="image/avatar/Rigel.png" />Rigel</dt>
+                <dd><q lang="la">nil novi sub sole</q></dd>
+                <dt><img src="image/avatar/TheKock.png" />TheKock</dt>
+                <dd><q lang="en">if ya smell ... what The Kock is shooting</q></dd>
+                <dt><img src="image/avatar/rhodan.png" />Rhodan</dt>
+                <dd><q lang="en">Rock&rsquo;n Roll</q></dd>
+                <dt><img src="image/avatar/uhuru.png" />uhuru</dt>
+                <dd><q lang="fr">O Liberté, que de crimes on commet en ton nom!</q></dd>
+                <dt><img src="image/avatar/Qoppa.png" />Qoppa</dt>
+                <dd><q lang="el">κωμῳδο-δῖδάσκᾰλος</q></dd>
+                <dt><img src="image/avatar/ΘΑΝΑΤΟΣ.png" />ΘΑΝΑΤΟΣ</dt>
+                <dd><q lang="el">πολλων θανάτων ἄξιος καἱ ούχ ὲνός</q></dd>
+                <dt><img src="image/avatar/绯红侍僧.png" />绯红侍僧</dt>
+                <dd>「信念能使人行走在火焰的洪流中并毫发无伤」</dd>
+                <dt><img src="image/avatar/曜黑侍僧.png" />曜黑侍僧</dt>
+                <dd>「真实能让人挺立在死亡的凝视下并全身而退」</dd>
+                <dt><img src="image/avatar/次郎.png" />次郎</dt>
+                <dd>「若纵怀二，奸乱必渐。」——陈子昂《上军国机要事》<br />「先王制礼经，祠为国大事，孟春祭风师，刺史敢有二？」——范仲淹《祠风师酬提刑赵学士见贻》<br />「孔二爷和关二爷均持不同学术观点」</dd>
+                <dt><img src="image/avatar/猫语者.png" />猫语者</dt>
+                <dd>「猫毛只有黑黄两色，基因在Ｘ染色体上，“淡化处理”是因为“生着生着没墨了”」</dd>
+            </dl>
+            <dl>
+                <dt><img src="image/avatar/Afranius.png" />Afranius</dt>
+                <dd><q lang="la">absolvi animam meam</q></dd>
+                <dt><img src="image/avatar/Baebius.png" />Baebius</dt>
+                <dd><q lang="la">bonis nocit quisquis pepercerit malis</q></dd>
+                <dt><img src="image/avatar/Caecilius.png" />Caecilius</dt>
+                <dd><q lang="la">cogito, ergo sum</q></dd>
+                <dt><img src="image/avatar/Decius.png" />Decius</dt>
+                <dd><q lang="la">de nihilo nihil flit</q></dd>
+                <dt><img src="image/avatar/Egnatius.png" />Egnatius</dt>
+                <dd><q lang="la">ex oriente lux</q></dd>
+                <dt><img src="image/avatar/Fabius.png" />Fabius</dt>
+                <dd><q lang="la">facta , non ficta !</q></dd>
+                <dt><img src="image/avatar/Gabnius.png" />Gabinius</dt>
+                <dd><q lang="la">gutta cavat lapidem</q></dd>
+                <dt><img src="image/avatar/Helvius.png" />Helvius</dt>
+                <dd><q lang="la">honos habet onus</q></dd>
+                <dt><img src="image/avatar/Icadius.png" />Icadius</dt>
+                <dd><q lang="la">industriae nil impossibile</q></dd>
+                <dt><img src="image/avatar/Junius.png" />Junius</dt>
+                <dd><q lang="la">jus talionis</q></dd>
+                <dt><img src="image/avatar/Kaeso.png" />Kaeso</dt>
+                <dd><q lang="la">custos morum</q></dd>
+                <dt><img src="image/avatar/Laberius.png" />Laberius</dt>
+                <dd><q lang="la">lupus pilum mutat, non mentem</q></dd>
+                <dt><img src="image/avatar/Marcellus.png" />Marcellus</dt>
+                <dd><q lang="la">mens agitat molem</q><br /><q lang="la">mens qua nihil est celerius</q></dd>
+                <dt><img src="image/avatar/Nigidius.png" />Nigidius</dt>
+                <dd><q lang="la">non nova sed nove</q></dd>
+                <dt><img src="image/avatar/Onesicritus.png" />Onesicritus</dt>
+                <dd><q lang="la">opera et studio</q><br /><q lang="la">omnia mea mecum porto</q></dd>
+                <dt><img src="image/avatar/Pacidejanus.png" />Pacidejanus</dt>
+                <dd><q lang="la">possunt quia posse videntur</q></dd>
+                <dt><img src="image/avatar/Racilius.png" />Racilius</dt>
+                <dd><q lang="la">repetitio est mater studiorum</q></dd>
+                <dt><img src="image/avatar/Rabirius.png" />Rabirius</dt>
+                <dd><q lang="la">quousque tandem ?</q></dd>
+                <dt><img src="image/avatar/Sacrani.png" />Sacrani</dt>
+                <dd><q lang="la">simplex munditiis</q></dd>
+                <dt><img src="image/avatar/Tacitus.png" />Tacitus</dt>
+                <dd><q lang="la">tempus edax rerum</q></dd>
+                <dt><img src="image/avatar/范含.png" />范含</dt>
+                <dd>「灯！等灯等灯……」</dd>
+            </dl>
+        </div>
+        <h2 class="heading">范狂夫指点江山激昂文字：「你行你上啊！」「笔给你！你来写！」「来来来，请注意学习观摩……」</h2>
+        <ul id="works">
+            <li><a class="alone" target="_blank" href="https://fanhan-inside.bitbucket.io/fantasy/fanism/toc.html"><img class="inline" src="image/TheKockWorld.svg" /></a>（《<ruby>卡壳世界<rt>The Kock World</rt></ruby>》）<br />——<b>建设新时代中国特色社会主义奇幻世界</b></li>
+            <li><a class="alone" target="_blank" href="https://fanhan-inside.bitbucket.io/fantasy/bizarre/toc.html"><img class="inline" src="image/kunimasajidai.svg" /></a>（《<ruby lang="ja">邦昌時代<rt>くにまさじだい</rt></ruby>》）<br />——<b>三千年目睹之怪现状</b></li>
+            <li><a class="alone" target="_blank" href="https://fanhan-inside.bitbucket.io/mathematics/fanism/toc.html"><img class="inline" src="image/mathematics.svg" /></a></li>
+            <li><a class="alone" target="_blank" href="https://fanhan-inside.bitbucket.io/essay/toc.html"><img class="inline" src="image/EssaysInKargsburg.svg" /></a>（«Essays in Kargsburg»）<br />——<b>曰若稽古、如是我闻、与时俱进……惹是生非</b></li>
+            <li><a class="alone" target="_blank" href="https://fanhan-inside.bitbucket.io/at_douban/toc.html">谈笑风生＠豆瓣</a>（《<ruby>一千零一页<rt>1001 Pages</rt></ruby>》）</li>
+            <li><a class="alone" target="_blank" href="https://fanhan-inside.bitbucket.io/at_jandan/toc.html">谈笑风生＠九省通衢の煎蛋</a>（《配色也要符合基本法》）</li>
+            <li><a class="alone" target="_blank" href="https://fanhan-inside.bitbucket.io/at_zhihu/toc.html">谈笑风生＠知乎</a>（《这些精英的学历啊，比我不知高到哪里去了》）</li>
+            <li><a class="alone" target="_blank" href="https://fanhan-inside.bitbucket.io/at_hupu/toc.html">谈笑风生＠虎扑</a>（《我以一个弱者的身份，向你们请教一些武德的经验》）</li>
+            <li><a class="alone" target="_blank" href="https://fanhan-inside.bitbucket.io/catalog/issues.html">讨论区备份</a>（《似乎有“六个鹅螺狮黑客”在GitHub搞了一个大新闻？》）</li>
+            <li><a class="alone" target="_blank" href="https://fanhan-inside.bitbucket.io/catalog/issuex.html">日志或日记或流水账</a></li>
         </ul>
     </main>
     <footer>
