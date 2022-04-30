@@ -3,19 +3,27 @@
     padding: 0 1px;
 }
 
-.dot {
-    text-emphasis: dot;
+.txtem {
+    -webkit-text-emphasis-position: under right;
     text-emphasis-position: under right;
+}
+
+.dot {
+    &:extend(.txtem);
+    -webkit-text-emphasis: dot;
+    text-emphasis: dot;
 }
 
 .circle {
+    &:extend(.txtem);
+    -webkit-text-emphasis: circle;
     text-emphasis: circle;
-    text-emphasis-position: under right;
 }
 
 .triangle {
+    &:extend(.txtem);
+    -webkit-text-emphasis: triangle;
     text-emphasis: triangle;
-    text-emphasis-position: under right;
 }
 
 mark {
@@ -115,25 +123,28 @@ ins {
 cite {
     &:extend(.blank);
     font-style: normal;
-    text-emphasis: none;
     text-decoration: none;
     border-bottom: 1px solid blue;
+    -webkit-text-emphasis: none;
+    text-emphasis: none;
 }
 
 dfn {
     &:extend(.blank);
     font-style: normal;
-    text-emphasis: none;
     text-decoration: none;
     border-bottom: 1px solid darkcyan;
+    -webkit-text-emphasis: none;
+    text-emphasis: none;
 }
 
 abbr {
     &:extend(.blank);
     font-style: normal;
-    text-emphasis: none;
     text-decoration: none;
     border-bottom: 1px solid black;
+    -webkit-text-emphasis: none;
+    text-emphasis: none;
 
     &.who {
         border-bottom: 1px solid red;
@@ -152,16 +163,16 @@ abbr {
         margin: none;
         padding: none;
         border: none;
-    }
 
-    &.uid::before {
-        content: '｛';
-        margin: 0 1px;
-    }
+        &::before {
+            content: '｛';
+            margin: 0 1px;
+        }
 
-    &.uid::after {
-        content: '｝';
-        margin: 0 1px;
+        &::after {
+            content: '｝';
+            margin: 0 1px;
+        }
     }
 
     &.myself {
@@ -170,32 +181,16 @@ abbr {
         padding: none;
         border: none;
         color: blue;
+
+        &::before {
+            content: '〔';
+            margin: 0 1px;
+        }
+
+        &::after {
+            content: '〕';
+            margin: 0 1px;
+        }
     }
 
-    &.myself::before {
-        content: '〔';
-        margin: 0 1px;
-    }
-
-    &.myself::after {
-        content: '〕';
-        margin: 0 1px;
-    }
-
-    &.nt {
-        font-weight: bold;
-        margin: none;
-        padding: none;
-        border: none;
-        color: black;
-    }
-
-    &.nt::after {
-        content: "V";
-        background-color: red;
-        font-size: 50%;
-        color: yellow;
-        margin: 4px;
-        padding: 0 4px;
-    }
 }
