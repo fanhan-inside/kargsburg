@@ -1,0 +1,64 @@
+article {
+    margin: 1rem auto 2rem auto;
+    padding: 20px;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    box-shadow: 0.5rem 0.5rem 0.75rem dimgray;
+    background-color: honeydew;
+
+    &.narrate {
+        background-color: antiquewhite;
+    }
+
+    &.explain {
+        background-color: beige;
+    }
+
+    &.mention {
+        background-color: lightgoldenrodyellow;
+    }
+}
+
+section {
+    background: transparent;
+    box-sizing: border-box;
+    box-shadow: none;
+    border: none;
+    margin: 1rem auto;
+    padding: 1rem auto;
+}
+
+blockquote {
+    box-sizing: border-box;
+    background-color: mintcream;
+    border-left: 0.5rem solid;
+    border-color: lightgray;
+    margin: 1rem;
+    padding: 1rem;
+
+    &.pink {
+        background-color: #fcf2f2;
+        border-color: #dFb5b4;
+    }
+
+    &.cyan {
+        background-color: #def;
+        border-color: #8ccbf2;
+    }
+
+    &.lime {
+        background-color: #CDF7CD;
+        border-color: #00A500;
+    }
+
+    &.yelo {
+        background-color: #faf4d2;
+        border-color: #e0cb52;
+    }
+
+    & &, & &.pink, & &.cyan, & &.lime, & &.yelo {
+        background-color: transparent;
+        border-top: 1px dashed lightgray;
+        border-bottom: 1px dashed lightgray;
+    }
+}

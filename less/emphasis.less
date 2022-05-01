@@ -31,15 +31,15 @@ mark {
     background-color: yellow;
 
     &.pink {
-        background-color: lightpink;
-    }
-
-    &.cyan {
-        background-color: lightcyan;
+        background-color: hotpink;
     }
 
     &.lime {
-        background-color: lightgreen;
+        background-color: lime;
+    }
+
+    &.cyan {
+        background-color: cyan;
     }
 }
 
@@ -71,16 +71,9 @@ s {
     &:extend(.blank);
     background-color: lightgray;
     text-decoration: black wavy line-through;
+    text-decoration-color: red;
 
-    &.red {
-        text-decoration-color: red;
-    }
-
-    &.green {
-        text-decoration-color: darkgreen;
-    }
-
-    &.blue {
+    &.strong {
         text-decoration-color: blue;
     }
 }
@@ -88,16 +81,9 @@ s {
 del {
     &:extend(.blank);
     text-decoration: black double line-through;
+    text-decoration-color: red;
 
-    &.red {
-        text-decoration-color: red;
-    }
-
-    &.green {
-        text-decoration-color: darkgreen;
-    }
-
-    &.blue {
+    &.strong {
         text-decoration-color: blue;
     }
 }
@@ -106,17 +92,11 @@ ins {
     &:extend(.blank);
     font-style: normal;
     text-decoration: none;
+    color: red;
 
-    &.red {
-        color: darkred;
-    }
-
-    &.green {
-        color: darkgreen;
-    }
-
-    &.blue {
-        color: darkblue;
+    &.strong {
+        font-weight: bold;
+        color: blue;
     }
 }
 
@@ -133,7 +113,7 @@ dfn {
     &:extend(.blank);
     font-style: normal;
     text-decoration: none;
-    border-bottom: 1px solid darkcyan;
+    border-bottom: 1px solid green;
     -webkit-text-emphasis: none;
     text-emphasis: none;
 }
@@ -142,21 +122,9 @@ abbr {
     &:extend(.blank);
     font-style: normal;
     text-decoration: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid red;
     -webkit-text-emphasis: none;
     text-emphasis: none;
-
-    &.who {
-        border-bottom: 1px solid red;
-    }
-
-    &.where {
-        border-bottom: 1px solid darkblue;
-    }
-
-    &.pseudo {
-        border-bottom: 1px solid green;
-    }
 
     &.uid {
         font-weight: bold;
@@ -192,5 +160,4 @@ abbr {
             margin: 0 1px;
         }
     }
-
 }
