@@ -1,0 +1,48 @@
+table {
+    border-collapse: collapse;
+    border: none;
+    margin: 1rem auto;
+
+    &.toc {
+        width: 99%;
+        margin: 2rem auto;
+
+        & tr:hover {
+            background-color: lightgoldenrodyellow;
+        }
+    }
+}
+
+caption {
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+thead {
+    border-bottom: 3px double gray;
+}
+
+tfoot {
+    border-top: 3px double gray;
+}
+
+.tablecell {
+    border: 1px solid dimgray;
+    padding: 0.5rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    &:extend(.tablecell);
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+td {
+    &:extend(.tablecell);
+    background: transparent;
+}

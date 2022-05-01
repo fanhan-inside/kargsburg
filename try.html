@@ -5,8 +5,21 @@
     <meta type="text/html" lang="zh" charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="image/icon.svg" />
     <link rel="stylesheet/less" type="text/css" href="main.less" />
-    <script src="https://cdn.jsdelivr.net/npm/less@4"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/less@4"></script> -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/less.js/4.1.2/less.min.js"></script>
     <title>测试</title>
+    <style type="text/css">
+        .flex {
+            box-sizing: border-box;
+            justify-content: center;
+            display: flex;
+        }
+
+        table.toc td:nth-child(2),
+        table.toc td:nth-child(3) {
+            text-align: left;
+        }
+    </style>
 </head>
 
 <body>
@@ -17,60 +30,198 @@
         <h2 class="heading">二级标题</h2>
         <a class="card">卡片链接</a>
         <p>正文中的<a>内嵌链接</a>与<a class="alone">单独链接</a></p>
-        <h3 class="heading"><span>三级标题</span></h3>
         <p>正文中<mark>高亮默认样式（黄）</mark>、及<mark class="pink">高亮样式一（红）</mark>、<mark class="lime">高亮样式二（绿）</mark>、<mark class="cyan">高亮样式三（蓝）</mark></p>
         <p>正文中<abbr title="&lt;abbr&gt;标签">专名</abbr>、<cite title="&lt;cite&gt;标签">文档</cite>、<dfn title="&lt;dfn&gt;标签">术语</dfn>、<abbr class="uid">帐号</abbr>、<abbr class="myself">范名</abbr>的样式。</p>
         <p>正文中<s>削除</s><del>删除</del><ins>插入</ins>、<s class="strong"><strong>削除</strong></s><del class="strong"><strong>删除</strong></del><ins class="strong">插入</ins>的样式。</p>
-        <h4 class="heading"><span>四级标题</span></h4>
         <p>正文中<b>粗体</b>、<i>斜体</i>、<u>下划线</u>、<em>强调</em>、<strong>壮体</strong>、以及三种着重修饰：</p>
         <ul>
             <li>点：<span class="dot">正文</span>、<b class="dot">粗体</b>、<i class="dot">斜体</i>、<u class="dot">下划线</u>、<em class="dot">强调</em>、<strong class="dot">壮体</strong></li>
             <li>圆：<span class="circle">正文</span>、<b class="circle">粗体</b>、<i class="circle">斜体</i>、<u class="circle">下划线</u>、<em class="circle">强调</em>、<strong class="circle">壮体</strong></li>
             <li>角：<span class="triangle">正文</span>、<b class="triangle">粗体</b>、<i class="triangle">斜体</i>、<u class="triangle">下划线</u>、<em class="triangle">强调</em>、<strong class="triangle">壮体</strong></li>
         </ul>
-        <h5 class="heading"><span>五级标题</span></h5>
+        <pre class="code">fANhAN iNSiDE</pre>
+        <p><time>2022-05-02 06:00:00</time><code>.f&rsquo;h@N#</code><span class="holy">希帕索斯永垂不朽</span><samp class="gui">fanhan-inside-outside.app.io</samp><span class="evil">走毕达哥拉斯路线的当权派</span><span class="tip">未完待续</span><span class="lowbee">“臣之於君也，入则恳恳以尽忠，出则谦谦以自悔，凡所白於上者，不可泄於外而伐诸人，善则归君，过则归己。”</span><kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>Del</kbd><span class="ero">弗拉基米罗夫娜</span></p>
+        <h3 class="heading"><span>三级标题</span></h3>
         <article>
             <p>文章</p>
-        </article>
-        <article class="narrate">
-            <p>叙述</p>
-        </article>
-        <article class="explain">
-            <p>说明</p>
-        </article>
-        <article class="mention">
-            <p>议论</p>
-        </article>
-        <blockquote class="pink">
-            <p>引用（红）</p>
-        </blockquote>
-        <blockquote class="yelo">
-            <p>引用（黄）</p>
-        </blockquote>
-        <blockquote class="cyan">
-            <p>引用（蓝）</p>
-        </blockquote>
-        <blockquote class="lime">
-            <p>引用（绿）</p>
-        </blockquote>
-        <blockquote>
-            <p>引用</p>
             <blockquote>
                 <p>嵌套引用</p>
             </blockquote>
             <blockquote class="pink">
                 <p>嵌套引用（红）</p>
             </blockquote>
+        </article>
+        <article class="narrate">
+            <p>叙述</p>
+            <blockquote>
+                <p>嵌套引用</p>
+            </blockquote>
             <blockquote class="yelo">
                 <p>嵌套引用（黄）</p>
+            </blockquote>
+        </article>
+        <article class="explain">
+            <p>说明</p>
+            <blockquote>
+                <p>嵌套引用</p>
             </blockquote>
             <blockquote class="cyan">
                 <p>嵌套引用（蓝）</p>
             </blockquote>
+        </article>
+        <article class="mention">
+            <p>议论</p>
+            <blockquote>
+                <p>嵌套引用</p>
+            </blockquote>
             <blockquote class="lime">
                 <p>嵌套引用（绿）</p>
             </blockquote>
-        </blockquote>
+        </article>
+        <div class="flex">
+            <blockquote>
+                <p>引用</p>
+                <blockquote>
+                    <p>嵌套引用</p>
+                </blockquote>
+                <blockquote class="pink">
+                    <p>嵌套引用（红）</p>
+                </blockquote>
+                <blockquote class="yelo">
+                    <p>嵌套引用（黄）</p>
+                </blockquote>
+                <blockquote class="cyan">
+                    <p>嵌套引用（蓝）</p>
+                </blockquote>
+                <blockquote class="lime">
+                    <p>嵌套引用（绿）</p>
+                </blockquote>
+            </blockquote>
+            <blockquote class="pink">
+                <p>引用（红）</p>
+                <blockquote>
+                    <p>嵌套引用</p>
+                </blockquote>
+                <blockquote class="pink">
+                    <p>嵌套引用（红）</p>
+                </blockquote>
+                <blockquote class="yelo">
+                    <p>嵌套引用（黄）</p>
+                </blockquote>
+                <blockquote class="cyan">
+                    <p>嵌套引用（蓝）</p>
+                </blockquote>
+                <blockquote class="lime">
+                    <p>嵌套引用（绿）</p>
+                </blockquote>
+            </blockquote>
+            <blockquote class="yelo">
+                <p>引用（黄）</p>
+                <blockquote>
+                    <p>嵌套引用</p>
+                </blockquote>
+                <blockquote class="pink">
+                    <p>嵌套引用（红）</p>
+                </blockquote>
+                <blockquote class="yelo">
+                    <p>嵌套引用（黄）</p>
+                </blockquote>
+                <blockquote class="cyan">
+                    <p>嵌套引用（蓝）</p>
+                </blockquote>
+                <blockquote class="lime">
+                    <p>嵌套引用（绿）</p>
+                </blockquote>
+            </blockquote>
+            <blockquote class="cyan">
+                <p>引用（蓝）</p>
+                <blockquote>
+                    <p>嵌套引用</p>
+                </blockquote>
+                <blockquote class="pink">
+                    <p>嵌套引用（红）</p>
+                </blockquote>
+                <blockquote class="yelo">
+                    <p>嵌套引用（黄）</p>
+                </blockquote>
+                <blockquote class="cyan">
+                    <p>嵌套引用（蓝）</p>
+                </blockquote>
+                <blockquote class="lime">
+                    <p>嵌套引用（绿）</p>
+                </blockquote>
+            </blockquote>
+            <blockquote class="lime">
+                <p>引用（绿）</p>
+                <blockquote>
+                    <p>嵌套引用</p>
+                </blockquote>
+                <blockquote class="pink">
+                    <p>嵌套引用（红）</p>
+                </blockquote>
+                <blockquote class="yelo">
+                    <p>嵌套引用（黄）</p>
+                </blockquote>
+                <blockquote class="cyan">
+                    <p>嵌套引用（蓝）</p>
+                </blockquote>
+                <blockquote class="lime">
+                    <p>嵌套引用（绿）</p>
+                </blockquote>
+            </blockquote>
+        </div>
+        <h4 class="heading"><span>四级标题</span></h4>
+
+        <table class="toc">
+            <caption>更新于 2022-5-1，共 5 篇</caption>
+            <colgroup>
+                <col width="50px">
+                <col>
+                <col>
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>№</th>
+                    <th>标题</th>
+                    <th>可萨汗国在行动</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>线索：《一百单八岁哥布林女博士与她的育婴堂》</td>
+                    <td>“大坦噶尼喀及桑给巴尔联合苏丹国……高等师范学院……哥布林语言文学系……今天……成立啦！”</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>后浪：知长安街事：总理各国事务衙门：礼部仪制清吏司表示深切哀悼</td>
+                    <td>“功劳是集体的，错误是个人的。<br />之前十二年幽州片场直播只不过是刑部尚书富歇发自私心杂念的‘捉弄’……<br />今后三年全球外景生放送就是礼部教坊司在中央集中统一领导下联手奉献的‘划时代整蛊综艺’了也。”</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>行不更名坐不改姓与指点江山激昂文字</td>
+                    <td>大成至圣先师圣腓特烈钦定，指使年轻人在网上闹着玩掀起世界大战，认真的反动民族就会从地球上消失。</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>娱乐至死の色目逗哔开始循环播放“将欲取之必先与之”这八个字了也</td>
+                    <td>“髙自联光说不练假把式，工自联光练不说傻把式，<span class="tip">政治敏感亦当删去</span>又练又说真把式。”</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>“<ruby>在这兴登堡大元帅坐镇的幽州城，你出不了头<rt>凯撒无才便是德，邦昌有德便是才，皇姑屯一声炮响，给幽州送来了大空位时代</rt></ruby>”</td>
+                    <td>“培训塔利班也要讲究方式方法，即便孩子撒谎偷窃诈骗都考了零分，也不能跟家长直说”</td>
+                </tr>
+            </tbody>
+            <thead>
+                <tr>
+                    <th>Σ</th>
+                    <th>5</th>
+                    <th>5</th>
+                </tr>
+            </thead>
+        </table>
+        <h5 class="heading"><span>五级标题</span></h5>
         <h6 class="heading"><span>六级标题</span></h6>
     </main>
     <footer>

@@ -1,0 +1,108 @@
+.spanex {
+    margin: 0 0.25rem;
+    padding: 0 0.25rem;
+    font-weight: bold;
+    border-radius: 0.25rem;
+}
+
+span.tip {
+    color: dimgray;
+
+    &::before {
+        content: '〔';
+    }
+
+    &::after {
+        content: '〕';
+    }
+}
+
+span.holy {
+    &:extend(.spanex);
+    background: linear-gradient(yellow, red);
+}
+
+span.evil {
+    &:extend(.spanex);
+    background: linear-gradient(lime, gray);
+    color: purple;
+}
+
+span.lowbee {
+    &:extend(.spanex);
+    color: darkgreen;
+    background-color: lightpink;
+}
+
+span.ero {
+    &:extend(.spanex);
+    background-color: pink;
+    color: brown;
+}
+
+samp {
+    font-family: var(--font-mono);
+    font-size: 100%;
+    margin: 0 1px;
+    padding: 1px;
+
+    &.gui {
+        color: darkred;
+    }
+}
+
+kbd {
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px white inset;
+    display: inline-block;
+    font-family: var(--font-sans);
+    font-size: 90%;
+    line-height: 1.2;
+    margin: 0 .2rem;
+    padding: .1rem .5rem;
+    text-shadow: 0 1px 0 white;
+    text-indent: 0;
+}
+
+code {
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+    color: darkred;
+    margin: 0 5px;
+    padding: 5px;
+    font-family: var(--font-code);
+    // font-size: 90%;
+}
+
+pre {
+    width: 90%;
+    margin: 1rem auto;
+    padding: 0.25rem 0.5rem;
+    word-wrap: normal;
+    white-space: pre;
+    overflow: auto;
+
+    &.code {
+        line-height: 1.25rem;
+        border: 1px dotted dimgray;
+        background-color: black;
+        color: lightgray;
+        font-family: var(--font-code);
+        font-size: 80%;
+    }
+}
+
+time {
+    font-family: var(--font-mono);
+
+    &::before {
+        content: '［';
+    }
+    
+    &::after {
+        content: '］';
+    }
+}

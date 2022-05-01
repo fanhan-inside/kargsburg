@@ -1,3 +1,11 @@
+.quotein() {
+    background-color: transparent;
+    border-top-width: 1px;
+    border-top-style: dashed;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+}
+
 article {
     margin: 1rem auto 2rem auto;
     padding: 20px;
@@ -56,9 +64,19 @@ blockquote {
         border-color: #e0cb52;
     }
 
-    & &, & &.pink, & &.cyan, & &.lime, & &.yelo {
-        background-color: transparent;
-        border-top: 1px dashed lightgray;
-        border-bottom: 1px dashed lightgray;
+    & &.pink,
+    & &.cyan,
+    & &.lime,
+    & &.yelo,
+    & & {
+        .quotein();
     }
+}
+
+article blockquote.pink,
+article blockquote.cyan,
+article blockquote.lime,
+article blockquote.yelo,
+article blockquote {
+    .quotein();
 }
