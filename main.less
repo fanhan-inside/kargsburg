@@ -6,23 +6,6 @@
 @import "less/divspan.less";
 @import "less/table.less";
 
-hr.signature {
-    background: transparent;
-    border: none;
-    width: 50%;
-    margin: auto;
-
-    &::before {
-        content: url(image/heraldry_small.svg);
-        .imginline();
-    }
-
-    &::after {
-        content: url(image/signature.svg);
-        .imginline();
-    }
-}
-
 html {
     background-color: @htmlbgcolor;
     min-width: @bodywidth;

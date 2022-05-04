@@ -101,8 +101,103 @@ time {
     &::before {
         content: '［';
     }
-    
+
     &::after {
         content: '］';
+    }
+}
+
+hr {
+    border: none;
+
+    &.signature {
+        background: transparent;
+        width: 50%;
+        margin: auto;
+
+        &::before {
+            content: url(image/heraldry_small.svg);
+            .imginline();
+        }
+
+        &::after {
+            content: url(image/signature.svg);
+            .imginline();
+        }
+    }
+
+    &.outside {
+        height: 2px;
+        width: 300px;
+        background-color: lightgray;
+        margin: 3rem auto;
+    }
+
+    &.inside {
+        height: 1px;
+        width: 50%;
+        margin: 0;
+        background-color: gray;
+    }
+}
+
+div.bulletin {
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    width: 90%;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid dimgray;
+    box-shadow: 0.25rem 0.25rem 0.5rem dimgray;
+
+    & & {
+        background-color: mintcream;
+        box-shadow: none;
+    }
+
+    & header {
+        box-sizing: border-box;
+        width: 100%;
+        min-height: 2rem;
+        margin: 0;
+        padding: 0;
+        border-bottom: 1px solid lightgray;
+
+        &.myself::before {
+            content: url(image/icon_dynamic.svg);
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 0.5rem;
+        }
+
+        & time {
+            float: right;
+        }
+
+        & abbr.uid,
+        & abbr.myself {
+            margin: 0 0.5rem;
+
+            &::before,
+            &::after {
+                content: none;
+            }
+        }
+    }
+
+    & footer {
+        box-sizing: border-box;
+        width: 100%;
+        border-top: 1px solid lightgray;
+        min-height: 2rem;
+        text-align: left;
+        margin: 0;
+        padding: 0.5rem;
+        color: dimgray;
+        font-size: 0.8rem;
+    }
+
+    & blockquote {
+        .quotein();
     }
 }
