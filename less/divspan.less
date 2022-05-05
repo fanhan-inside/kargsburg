@@ -46,6 +46,29 @@ span.ero {
     color: brown;
 }
 
+span.math {
+    display: inline-block;
+    text-indent: 0;
+    font-family: var(--font-math);
+    font-size: 125%;
+    margin: 1px;
+    padding: 1px;
+    color: blue;
+    background-color: transparent;
+
+    & img {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 2px;
+    }
+}
+
+var {
+    font-family: var(--font-math);
+    font-style: oblique;
+    padding: 2px;
+}
+
 samp {
     font-family: var(--font-mono);
     font-size: 100%;
@@ -115,6 +138,8 @@ time {
 
 hr {
     border: none;
+    height: 3px;
+    background-color: darkred;
 
     &.signature {
         background: transparent;
@@ -209,5 +234,29 @@ div.bulletin {
 
     & blockquote {
         .quotein();
+    }
+}
+
+div.signature {
+    padding: 0.5rem 2rem;
+    text-align: center;
+
+    &::before {
+        content: url(image/signature_before.svg);
+    }
+
+    & span.signature {
+
+        &::before {
+            .imginline();
+            content: url(image/sign_name.svg);
+            margin-right: 1rem;
+        }
+
+        &::after {
+            .imginline();
+            content: url(image/sign_room.svg);
+            margin-left: 1rem;
+        }
     }
 }
