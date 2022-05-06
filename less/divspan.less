@@ -199,6 +199,13 @@ div.bulletin {
         padding: 0;
         border-bottom: 1px solid lightgray;
 
+        &::before {
+            content: url(image/dummy36.svg);
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 0.5rem;
+        }
+
         &.myself::before {
             content: url(image/icon_dynamic.svg);
             display: inline-block;
