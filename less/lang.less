@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "Quivira";
+    src: local("Quivira"), url(font/Quivira.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "CharisSIL";
+    src: local("Charis SIL"), url(font/CharisSIL.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "CharisSIL";
+    src: local("Charis SIL Bold"), url(font/CharisSIL-Bold.woff2) format("woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "CharisSIL";
+    src: local("Charis SIL Italic"), url(font/CharisSIL-Italic.woff2) format("woff2");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "CharisSIL";
+    src: local("Charis SIL Bold Italic"), url(font/CharisSIL-BoldItalic.woff2) format("woff2");
+    font-weight: bold;
+    font-style: italic;
+}
+
+.quivira,
+:lang(qvr) {
+    font-family: 'Quivira';
+    font-size: 125%;
+}
+
+.ipa,
+:lang(ipa) {
+    font-family: CharisSIL;
+    color: darkslategray;
+
+    &::before {
+        content: '[';
+        color: red;
+    }
+
+    &::after {
+        content: ']';
+        color: red;
+    }
+}
+
+span {
+
+    &:lang(cop),
+    &:lang(uga),
+    &:lang(arc),
+    &:lang(phn),
+    &:lang(smp),
+    &:lang(xpu),
+    &:lang(got),
+    &:lang(chu) {
+        &:extend(.quivira);
+    }
+
+    &:lang(he),
+    &:lang(ar),
+    &:lang(syc) {
+        font-size: 125%;
+    }
+}
+
+rt {
+    &.ipa,
+    &:lang(ipa) {
+        font-size: 100%;
+    }
+
+    &:lang(he),
+    &:lang(ar),
+    &:lang(syc) {
+        color: darkgreen;
+        font-size: 125%;
+    }
+}
+
+q {
+    color: darkblue;
+    font-size: 100%;
+
+    &::before,
+    &::after {
+        color: darkred;
+    }
+
+    &:lang(fhn) {
+        &::before {
+            content: '『';
+        }
+
+        &::after {
+            content: '』';
+        }
+    }
+
+    &:lang(ar),
+    &:lang(he),
+    &:lang(syc) {
+        font-size: 125%;
+        color: darkgreen;
+
+        &::before {
+            content: '⟨';
+        }
+
+        &::after {
+            content: '⟩';
+        }
+    }
+
+    &:lang(el) {
+        font-size: 1.5rem;
+        &::before {
+            content: '〖';
+        }
+
+        &::after {
+            content: '〗';
+        }
+    }
+}
