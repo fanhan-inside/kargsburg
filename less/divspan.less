@@ -11,55 +11,57 @@
     display: flex;
 }
 
-span.tip {
-    color: dimgray;
-
-    &::before {
-        content: '〔';
+span {
+    &.holy {
+        &:extend(.spanex);
+        background: linear-gradient(yellow, red);
     }
 
-    &::after {
-        content: '〕';
+    &.evil {
+        &:extend(.spanex);
+        background: linear-gradient(lime, gray);
+        color: purple;
     }
-}
 
-span.holy {
-    &:extend(.spanex);
-    background: linear-gradient(yellow, red);
-}
+    &.lowbee {
+        &:extend(.spanex);
+        color: darkgreen;
+        background-color: lightpink;
+    }
 
-span.evil {
-    &:extend(.spanex);
-    background: linear-gradient(lime, gray);
-    color: purple;
-}
+    &.ero {
+        &:extend(.spanex);
+        background-color: pink;
+        color: brown;
+    }
 
-span.lowbee {
-    &:extend(.spanex);
-    color: darkgreen;
-    background-color: lightpink;
-}
+    &.tip {
+        color: dimgray;
+    
+        &::before {
+            content: '〔';
+        }
+    
+        &::after {
+            content: '〕';
+        }
+    }
 
-span.ero {
-    &:extend(.spanex);
-    background-color: pink;
-    color: brown;
-}
-
-span.math {
-    display: inline-block;
-    text-indent: 0;
-    font-family: var(--font-math);
-    font-size: 125%;
-    margin: 1px;
-    padding: 1px;
-    color: blue;
-    background-color: transparent;
-
-    & img {
+    &.math {
         display: inline-block;
-        vertical-align: middle;
-        margin: 2px;
+        text-indent: 0;
+        font-family: var(--font-math);
+        font-size: 125%;
+        margin: 1px;
+        padding: 1px;
+        color: blue;
+        background-color: transparent;
+    
+        & img {
+            display: inline-block;
+            vertical-align: middle;
+            margin: 2px;
+        }
     }
 }
 
@@ -139,7 +141,7 @@ time {
 hr {
     border: none;
     height: 3px;
-    background-color: darkred;
+    background-color: darkgray;
 
     &.signature {
         height: auto;
