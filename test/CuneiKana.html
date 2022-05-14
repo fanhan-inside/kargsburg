@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta type="text/html" lang="zh" charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="../image/icon.svg" />
+    <link rel="stylesheet/less" type="text/css" href="../main.less" />
+    <!-- <script src="https://cdn.jsdelivr.net/npm/less@4"></script> -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/less.js/4.1.2/less.min.js"></script>
+    <title>楔形假名</title>
+</head>
+
+<body>
+    <header>
+        <h1>楔形假名</h1>
+    </header>
+    <main>
+        <h2 class="heading">范版八十音图</h2>
+        <div class="flex">
+            <table id="hira">
+                <caption lang="ja">「“ひらがな”」</caption>
+                <thead>
+                    <tr>
+                        <th>声母</th>
+                        <th>A</th>
+                        <th>I</th>
+                        <th>U</th>
+                        <th>E</th>
+                        <th>O</th>
+                        <th>Ya</th>
+                        <th>Yu</th>
+                        <th>Yo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>－</td>
+                        <td lang="cunei">あ</td>
+                        <td lang="cunei">い</td>
+                        <td lang="cunei">う</td>
+                        <td lang="cunei">え</td>
+                        <td lang="cunei">お</td>
+                        <td lang="cunei">や</td>
+                        <td lang="cunei">ゆ</td>
+                        <td lang="cunei">よ</td>
+                    </tr>
+                    <tr>
+                        <td>k</td>
+                        <td lang="cunei">か</td>
+                        <td lang="cunei">き</td>
+                        <td lang="cunei">く</td>
+                        <td lang="cunei">け</td>
+                        <td lang="cunei">こ</td>
+                        <td lang="cunei">きゃ</td>
+                        <td lang="cunei">きゅ</td>
+                        <td lang="cunei">きょ</td>
+                    </tr>
+                    <tr>
+                        <td>g</td>
+                        <td lang="cunei">が</td>
+                        <td lang="cunei">ぎ</td>
+                        <td lang="cunei">ぐ</td>
+                        <td lang="cunei">げ</td>
+                        <td lang="cunei">ご</td>
+                        <td lang="cunei">ぎゃ</td>
+                        <td lang="cunei">ぎゅ</td>
+                        <td lang="cunei">ぎょ</td>
+                    </tr>
+                    <tr>
+                        <td>t</td>
+                        <td lang="cunei">た</td>
+                        <td lang="cunei">ち</td>
+                        <td lang="cunei">つ</td>
+                        <td lang="cunei">て</td>
+                        <td lang="cunei">と</td>
+                        <td lang="cunei">ちゃ</td>
+                        <td lang="cunei">ちゅ</td>
+                        <td lang="cunei">ちょ</td>
+                    </tr>
+                    <tr>
+                        <td>d</td>
+                        <td lang="cunei">だ</td>
+                        <td lang="cunei">ぢ</td>
+                        <td lang="cunei">づ</td>
+                        <td lang="cunei">で</td>
+                        <td lang="cunei">ど</td>
+                        <td lang="cunei">ぢゃ</td>
+                        <td lang="cunei">ぢゅ</td>
+                        <td lang="cunei">ぢょ</td>
+                    </tr>
+                    <tr>
+                        <td>s</td>
+                        <td lang="cunei">さ</td>
+                        <td lang="cunei">し</td>
+                        <td lang="cunei">す</td>
+                        <td lang="cunei">せ</td>
+                        <td lang="cunei">そ</td>
+                        <td lang="cunei">しゃ</td>
+                        <td lang="cunei">しゅ</td>
+                        <td lang="cunei">しょ</td>
+                    </tr>
+                    <tr>
+                        <td>z</td>
+                        <td lang="cunei">ざ</td>
+                        <td lang="cunei">じ</td>
+                        <td lang="cunei">ず</td>
+                        <td lang="cunei">ぜ</td>
+                        <td lang="cunei">ぞ</td>
+                        <td lang="cunei">じゃ</td>
+                        <td lang="cunei">じゅ</td>
+                        <td lang="cunei">じょ</td>
+                    </tr>
+                    <tr>
+                        <td>n</td>
+                        <td lang="cunei">な</td>
+                        <td lang="cunei">に</td>
+                        <td lang="cunei">ぬ</td>
+                        <td lang="cunei">ね</td>
+                        <td lang="cunei">の</td>
+                        <td lang="cunei">にゃ</td>
+                        <td lang="cunei">にゅ</td>
+                        <td lang="cunei">にょ</td>
+                    </tr>
+                    <tr>
+                        <td>r</td>
+                        <td lang="cunei">ら</td>
+                        <td lang="cunei">り</td>
+                        <td lang="cunei">る</td>
+                        <td lang="cunei">れ</td>
+                        <td lang="cunei">ろ</td>
+                        <td lang="cunei">りゃ</td>
+                        <td lang="cunei">りゅ</td>
+                        <td lang="cunei">りょ</td>
+                    </tr>
+                    <tr>
+                        <td>m</td>
+                        <td lang="cunei">ま</td>
+                        <td lang="cunei">み</td>
+                        <td lang="cunei">む</td>
+                        <td lang="cunei">め</td>
+                        <td lang="cunei">も</td>
+                        <td lang="cunei">みゃ</td>
+                        <td lang="cunei">みゅ</td>
+                        <td lang="cunei">みょ</td>
+                    </tr>
+                    <tr>
+                        <td>h</td>
+                        <td lang="cunei">は</td>
+                        <td lang="cunei">ひ</td>
+                        <td lang="cunei">ふ</td>
+                        <td lang="cunei">へ</td>
+                        <td lang="cunei">ほ</td>
+                        <td lang="cunei">ひゃ</td>
+                        <td lang="cunei">ひゅ</td>
+                        <td lang="cunei">ひょ</td>
+                    </tr>
+                    <tr>
+                        <td>f</td>
+                        <td lang="cunei">ふぁ</td>
+                        <td lang="cunei">ふぃ</td>
+                        <td lang="cunei">ふぅ</td>
+                        <td lang="cunei">ふぇ</td>
+                        <td lang="cunei">ふぉ</td>
+                        <td lang="cunei">ふゃ</td>
+                        <td lang="cunei">ふゅ</td>
+                        <td lang="cunei">ふょ</td>
+                    </tr>
+                    <tr>
+                        <td>v</td>
+                        <td lang="cunei">ゔぁ<br />う゛ぁ</td>
+                        <td lang="cunei">ゔぃ<br />う゛ぃ</td>
+                        <td lang="cunei">ゔ<br />う゛</td>
+                        <td lang="cunei">ゔぇ<br />う゛ぇ</td>
+                        <td lang="cunei">ゔぉ<br />う゛ぉ</td>
+                        <td lang="cunei">ゔゃ<br />う゛ゃ</td>
+                        <td lang="cunei">ゔゅ<br />う゛ゅ</td>
+                        <td lang="cunei">ゔょ<br />う゛ょ</td>
+                    </tr>
+                    <tr>
+                        <td>p</td>
+                        <td lang="cunei">ぱ</td>
+                        <td lang="cunei">ぴ</td>
+                        <td lang="cunei">ぷ</td>
+                        <td lang="cunei">ぺ</td>
+                        <td lang="cunei">ぽ</td>
+                        <td lang="cunei">ぴゃ</td>
+                        <td lang="cunei">ぴゅ</td>
+                        <td lang="cunei">ぴょ</td>
+                    </tr>
+                    <tr>
+                        <td>b</td>
+                        <td lang="cunei">ば</td>
+                        <td lang="cunei">び</td>
+                        <td lang="cunei">ぶ</td>
+                        <td lang="cunei">べ</td>
+                        <td lang="cunei">ぼ</td>
+                        <td lang="cunei">びゃ</td>
+                        <td lang="cunei">びゅ</td>
+                        <td lang="cunei">びょ</td>
+                    </tr>
+                    <tr>
+                        <td>w</td>
+                        <td lang="cunei">わ</td>
+                        <td lang="cunei">ゐ</td>
+                        <td>－</td>
+                        <td lang="cunei">ゑ</td>
+                        <td lang="cunei">を</td>
+                        <td>－</td>
+                        <td>－</td>
+                        <td>－</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table id="kata">
+                <caption lang="ja">「“カタカナ”」</caption>
+                <thead>
+                    <tr>
+                        <th>声母</th>
+                        <th>A</th>
+                        <th>I</th>
+                        <th>U</th>
+                        <th>E</th>
+                        <th>O</th>
+                        <th>Ya</th>
+                        <th>Yu</th>
+                        <th>Yo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>－</td>
+                        <td lang="cunei">ア</td>
+                        <td lang="cunei">イ</td>
+                        <td lang="cunei">ウ</td>
+                        <td lang="cunei">エ</td>
+                        <td lang="cunei">オ</td>
+                        <td lang="cunei">ヤ</td>
+                        <td lang="cunei">ユ</td>
+                        <td lang="cunei">ヨ</td>
+                    </tr>
+                    <tr>
+                        <td>k</td>
+                        <td lang="cunei">カ</td>
+                        <td lang="cunei">キ</td>
+                        <td lang="cunei">ク</td>
+                        <td lang="cunei">ケ</td>
+                        <td lang="cunei">コ</td>
+                        <td lang="cunei">キャ</td>
+                        <td lang="cunei">キュ</td>
+                        <td lang="cunei">キョ</td>
+                    </tr>
+                    <tr>
+                        <td>g</td>
+                        <td lang="cunei">ガ</td>
+                        <td lang="cunei">ギ</td>
+                        <td lang="cunei">グ</td>
+                        <td lang="cunei">ゲ</td>
+                        <td lang="cunei">ゴ</td>
+                        <td lang="cunei">ギャ</td>
+                        <td lang="cunei">ギュ</td>
+                        <td lang="cunei">ギョ</td>
+                    </tr>
+                    <tr>
+                        <td>t</td>
+                        <td lang="cunei">タ</td>
+                        <td lang="cunei">チ</td>
+                        <td lang="cunei">ツ</td>
+                        <td lang="cunei">テ</td>
+                        <td lang="cunei">ト</td>
+                        <td lang="cunei">チャ</td>
+                        <td lang="cunei">チュ</td>
+                        <td lang="cunei">チョ</td>
+                    </tr>
+                    <tr>
+                        <td>d</td>
+                        <td lang="cunei">ダ</td>
+                        <td lang="cunei">ヂ</td>
+                        <td lang="cunei">ヅ</td>
+                        <td lang="cunei">デ</td>
+                        <td lang="cunei">ド</td>
+                        <td lang="cunei">ヂャ</td>
+                        <td lang="cunei">ヂュ</td>
+                        <td lang="cunei">ヂョ</td>
+                    </tr>
+                    <tr>
+                        <td>s</td>
+                        <td lang="cunei">サ</td>
+                        <td lang="cunei">シ</td>
+                        <td lang="cunei">ス</td>
+                        <td lang="cunei">セ</td>
+                        <td lang="cunei">ソ</td>
+                        <td lang="cunei">シャ</td>
+                        <td lang="cunei">シュ</td>
+                        <td lang="cunei">ショ</td>
+                    </tr>
+                    <tr>
+                        <td>z</td>
+                        <td lang="cunei">ザ</td>
+                        <td lang="cunei">ジ</td>
+                        <td lang="cunei">ズ</td>
+                        <td lang="cunei">ゼ</td>
+                        <td lang="cunei">ゾ</td>
+                        <td lang="cunei">ジャ</td>
+                        <td lang="cunei">ジュ</td>
+                        <td lang="cunei">ジョ</td>
+                    </tr>
+                    <tr>
+                        <td>n</td>
+                        <td lang="cunei">ナ</td>
+                        <td lang="cunei">ニ</td>
+                        <td lang="cunei">ヌ</td>
+                        <td lang="cunei">ネ</td>
+                        <td lang="cunei">ノ</td>
+                        <td lang="cunei">ニャ</td>
+                        <td lang="cunei">ニュ</td>
+                        <td lang="cunei">ニョ</td>
+                    </tr>
+                    <tr>
+                        <td>r</td>
+                        <td lang="cunei">ラ</td>
+                        <td lang="cunei">リ</td>
+                        <td lang="cunei">ル</td>
+                        <td lang="cunei">レ</td>
+                        <td lang="cunei">ロ</td>
+                        <td lang="cunei">リャ</td>
+                        <td lang="cunei">リュ</td>
+                        <td lang="cunei">リョ</td>
+                    </tr>
+                    <tr>
+                        <td>m</td>
+                        <td lang="cunei">マ</td>
+                        <td lang="cunei">ミ</td>
+                        <td lang="cunei">ム</td>
+                        <td lang="cunei">メ</td>
+                        <td lang="cunei">モ</td>
+                        <td lang="cunei">ミャ</td>
+                        <td lang="cunei">ミュ</td>
+                        <td lang="cunei">ミョ</td>
+                    </tr>
+                    <tr>
+                        <td>h</td>
+                        <td lang="cunei">ハ</td>
+                        <td lang="cunei">ヒ</td>
+                        <td lang="cunei">フ</td>
+                        <td lang="cunei">ヘ</td>
+                        <td lang="cunei">ホ</td>
+                        <td lang="cunei">ヒャ</td>
+                        <td lang="cunei">ヒュ</td>
+                        <td lang="cunei">ヒョ</td>
+                    </tr>
+                    <tr>
+                        <td>f</td>
+                        <td lang="cunei">ファ</td>
+                        <td lang="cunei">フィ</td>
+                        <td lang="cunei">フゥ</td>
+                        <td lang="cunei">フェ</td>
+                        <td lang="cunei">フォ</td>
+                        <td lang="cunei">フャ</td>
+                        <td lang="cunei">フュ</td>
+                        <td lang="cunei">フョ</td>
+                    </tr>
+                    <tr>
+                        <td>v</td>
+                        <td lang="cunei">ヷ<br />ヴァ</td>
+                        <td lang="cunei">ヸ<br />ヴィ</td>
+                        <td lang="cunei">ヴ</td>
+                        <td lang="cunei">ヹ<br />ヴェ</td>
+                        <td lang="cunei">ヺ<br />ヴォ</td>
+                        <td lang="cunei">ヴャ</td>
+                        <td lang="cunei">ヴュ</td>
+                        <td lang="cunei">ヴョ</td>
+                    </tr>
+                    <tr>
+                        <td>p</td>
+                        <td lang="cunei">パ</td>
+                        <td lang="cunei">ピ</td>
+                        <td lang="cunei">プ</td>
+                        <td lang="cunei">ペ</td>
+                        <td lang="cunei">ポ</td>
+                        <td lang="cunei">ピャ</td>
+                        <td lang="cunei">ピュ</td>
+                        <td lang="cunei">ピョ</td>
+                    </tr>
+                    <tr>
+                        <td>b</td>
+                        <td lang="cunei">バ</td>
+                        <td lang="cunei">ビ</td>
+                        <td lang="cunei">ブ</td>
+                        <td lang="cunei">ベ</td>
+                        <td lang="cunei">ボ</td>
+                        <td lang="cunei">ビャ</td>
+                        <td lang="cunei">ビュ</td>
+                        <td lang="cunei">ビョ</td>
+                    </tr>
+                    <tr>
+                        <td>w</td>
+                        <td lang="cunei">ワ</td>
+                        <td lang="cunei">ヰ</td>
+                        <td>－</td>
+                        <td lang="cunei">ヱ</td>
+                        <td lang="cunei">ヲ</td>
+                        <td>－</td>
+                        <td>－</td>
+                        <td>－</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <h2 class="heading">其它字符</h2>
+        <h2 class="heading">连续文本</h2>
+    </main>
+    <footer>
+        <img src="../image/qed.svg" />
+    </footer>
+</body>
