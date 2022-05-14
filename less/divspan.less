@@ -37,11 +37,11 @@ span {
 
     &.tip {
         color: dimgray;
-    
+
         &::before {
             content: '〔';
         }
-    
+
         &::after {
             content: '〕';
         }
@@ -56,7 +56,7 @@ span {
         padding: 1px;
         color: blue;
         background-color: transparent;
-    
+
         & img {
             display: inline-block;
             vertical-align: middle;
@@ -146,16 +146,14 @@ hr {
     &.signature {
         height: auto;
         background: transparent;
-        width: 50%;
-        margin: auto;
 
         &::before {
-            content: url(image/heraldry_small.svg);
+            content: url(image/signature.svg);
             .imginline();
         }
-
+        
         &::after {
-            content: url(image/signature.svg);
+            content: url(image/heraldry_small.svg);
             .imginline();
         }
     }

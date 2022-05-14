@@ -18,6 +18,10 @@ body {
     background-color: @bodybgcolor;
     width: @bodywidth;
     .margin();
+
+    &>header::after {
+        content: url(image/header_after.svg);
+    }
 }
 
 main {
@@ -34,7 +38,6 @@ header {
         font-size: 1.5rem;
         text-align: right;
     }
-
 }
 
 footer {
