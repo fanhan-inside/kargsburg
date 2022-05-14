@@ -79,10 +79,10 @@
 }
 
 .vace, :lang(vace) {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: 'FanVace';
     font-feature-settings: "liga";
-    line-height: 4rem;
+    line-height: 3.5rem;
 }
 
 .ipa,
@@ -144,7 +144,8 @@ q {
         color: darkred;
     }
 
-    &:lang(fhn) {
+    &:lang(fhn),
+    &:lang(vace) {
         &::before {
             content: '『';
         }
