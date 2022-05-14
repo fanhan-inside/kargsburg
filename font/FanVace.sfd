@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1652400918
-ModificationTime: 1652488578
+ModificationTime: 1652491901
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -45,7 +45,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 38 38 14
+WinInfo: 0 38 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -2181,7 +2181,10 @@ EndChar
 StartChar: c
 Encoding: 99 99 67
 Width: 4096
-Flags: HW
+Flags: W
+HStem: -271 600<1148 2948> 929 600<1148 3548> 2129 600<1148 3548>
+VStem: 548 600<329 929 1529 2129>
+CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -2626,11 +2629,13 @@ EndChar
 StartChar: t
 Encoding: 116 116 84
 Width: 4096
-Flags: HW
+Flags: W
+HStem: -271 600<1148 2948> 929 600<1148 2948> 2729 2576G<548 1148 1748 2357.24> 5305 20G<1748 2357.24>
+VStem: 548 600<329 929 1529 2729> 2948 600<329 929 1529 2729>
 LayerCount: 2
 Fore
 SplineSet
-2348 5325 m 1
+2348 5325 m 1xdc
  3548 2729 l 1
  3548 -271 l 1
  548 -271 l 1
@@ -2638,9 +2643,9 @@ SplineSet
  1148 2729 l 1
  1148 1529 l 1
  2948 1529 l 1
- 2948 2729 l 1
+ 2948 2729 l 1xec
  1748 5325 l 1
- 2348 5325 l 1
+ 2348 5325 l 1xdc
 2948 929 m 1
  1148 929 l 1
  1148 329 l 1
@@ -5674,14 +5679,15 @@ SplineSet
  3422.34179688 1703.13378906 3278.96386719 761.807617188 2779.49707031 -237.126953125 c 0
  2759.34277344 -277.435546875 2748 -322.903320312 2748 -371 c 0
 EndSplineSet
-Validated: 524329
-Ligature2: "'liga' Consonant Cluster Latin" C S
+Validated: 41
+Ligature2: "'liga' Consonant Cluster Latin" C Z
 EndChar
 
 StartChar: SS.vace
 Encoding: 7838 7838 177
 Width: 4096
-Flags: H
+HStem: 2529 600<1447.72 2640.21>
+VStem: 779.497 568.503<-583.09 -330.664>
 LayerCount: 2
 Fore
 SplineSet
@@ -5710,8 +5716,8 @@ SplineSet
  447.87890625 240.235351562 593.799804688 -133.477539062 779.497070312 -504.873046875 c 0
  828.724609375 -603.328125 930.521484375 -671 1048 -671 c 0
 EndSplineSet
-Validated: 524329
-Ligature2: "'liga' Consonant Cluster Latin" S S
+Validated: 41
+Ligature2: "'liga' Consonant Cluster Latin" S Z
 EndChar
 
 StartChar: ccedilla
@@ -5734,7 +5740,7 @@ SplineSet
  1748 -2867 l 1
 EndSplineSet
 Validated: 1
-Ligature2: "'liga' Consonant Cluster Latin" C s
+Ligature2: "'liga' Consonant Cluster Latin" c z
 EndChar
 
 StartChar: germandbls
@@ -5758,7 +5764,7 @@ SplineSet
  2348 -2867 l 1
 EndSplineSet
 Validated: 1
-Ligature2: "'liga' Consonant Cluster Latin" S s
+Ligature2: "'liga' Consonant Cluster Latin" s z
 EndChar
 EndChars
 EndSplineFont
