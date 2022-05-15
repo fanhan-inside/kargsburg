@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1652549774
-ModificationTime: 1652567704
+ModificationTime: 1652574655
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,6 +36,7 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2Vendor: 'PfEd'
 Lookup: 4 0 1 "'liga' Cuneiform" { "'liga' Cuneiform-Hira"  "'liga' Cuneiform-Kata"  } ['liga' ('DFLT' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
@@ -101,7 +102,7 @@ SplineSet
  156.145507812 1272.29882812 343.431640625 1956.22167969 681.701171875 2632.75976562 c 0
  721.286132812 2711.93261719 802.760742188 2766.27734375 897.061523438 2766.99316406 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: xi.kata
@@ -212,7 +213,7 @@ SplineSet
  3260.61230469 1185.70214844 3073.32617188 501.779296875 2735.05664062 -174.759765625 c 0
  2695.47167969 -253.931640625 2613.99707031 -308.276367188 2519.69628906 -308.993164062 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: xe.kata
@@ -371,7 +372,7 @@ SplineSet
  4240 629 4240 29 4240 -571 c 1
  2440 -571 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: ga.kata
@@ -419,7 +420,7 @@ SplineSet
  4240 629 4240 29 4240 -571 c 1
  2440 -571 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: ki.kata
@@ -471,7 +472,7 @@ SplineSet
  4240 -571 l 1
  2440 -571 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: gi.kata
@@ -523,7 +524,7 @@ SplineSet
  4240 -571 l 1
  2440 -571 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: ku.kata
@@ -571,7 +572,7 @@ SplineSet
  2440 1229 l 1
  4240 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: gu.kata
@@ -619,7 +620,7 @@ SplineSet
  2440 1229 l 1
  4240 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: ke.kata
@@ -671,7 +672,7 @@ SplineSet
  2440 -571 l 1
  2440 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: ge.kata
@@ -723,7 +724,7 @@ SplineSet
  2440 -571 l 1
  2440 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: ko.kata
@@ -771,7 +772,7 @@ SplineSet
  2440 -571 l 1
  2440 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: go.kata
@@ -819,7 +820,7 @@ SplineSet
  2440 -571 l 1
  2440 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: sa.kata
@@ -869,7 +870,7 @@ SplineSet
  4240 629 4240 29 4240 -571 c 1
  2440 -571 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: za.kata
@@ -919,7 +920,7 @@ SplineSet
  4240 629 4240 29 4240 -571 c 1
  2440 -571 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: si.kata
@@ -1084,7 +1085,7 @@ SplineSet
  2440 29 2440 629 2440 1229 c 1
  4240 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: zu.kata
@@ -1134,7 +1135,7 @@ SplineSet
  2440 29 2440 629 2440 1229 c 1
  4240 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: se.kata
@@ -1188,7 +1189,7 @@ SplineSet
  2440 -571 l 1
  2440 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: ze.kata
@@ -1242,7 +1243,7 @@ SplineSet
  2440 -571 l 1
  2440 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: so.kata
@@ -1292,7 +1293,7 @@ SplineSet
  3640 -571 3040 -571 2440 -571 c 1
  2440 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: zo.kata
@@ -1342,7 +1343,7 @@ SplineSet
  3640 -571 3040 -571 2440 -571 c 1
  2440 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: ta.kata
@@ -1392,7 +1393,7 @@ SplineSet
  4240 629 4240 29 4240 -571 c 1
  2440 -571 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: da.kata
@@ -1442,7 +1443,7 @@ SplineSet
  4240 629 4240 29 4240 -571 c 1
  2440 -571 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: ti.kata
@@ -1738,7 +1739,7 @@ SplineSet
  2440 -571 l 1
  2440 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: de.kata
@@ -1792,7 +1793,7 @@ SplineSet
  2440 -571 l 1
  2440 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: to.kata
@@ -1842,7 +1843,7 @@ SplineSet
  3640 -571 3040 -571 2440 -571 c 1
  2440 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: do.kata
@@ -1892,7 +1893,7 @@ SplineSet
  3640 -571 3040 -571 2440 -571 c 1
  2440 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: na.kata
@@ -1948,7 +1949,7 @@ SplineSet
  4240 -571 l 1
  2440 -571 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: ni.kata
@@ -2010,7 +2011,7 @@ SplineSet
  4240 -571 l 1
  2440 -571 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: nu.kata
@@ -2066,7 +2067,7 @@ SplineSet
  2440 1229 l 1
  4240 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: ne.kata
@@ -2126,7 +2127,7 @@ SplineSet
  2440 -571 l 1
  2440 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: no.kata
@@ -2182,7 +2183,7 @@ SplineSet
  2440 -571 l 1
  2440 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: ha.kata
@@ -2271,7 +2272,7 @@ SplineSet
  4240 629 4240 29 4240 -571 c 1
  2440 -571 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: pa.kata
@@ -2319,7 +2320,7 @@ SplineSet
  4240 629 4240 29 4240 -571 c 1
  2440 -571 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: hi.kata
@@ -2418,7 +2419,7 @@ SplineSet
  4240 -571 l 1
  2440 -571 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: pi.kata
@@ -2470,7 +2471,7 @@ SplineSet
  4240 -571 l 1
  2440 -571 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: hu.kata
@@ -2515,7 +2516,7 @@ SplineSet
  2440 1229 l 1
  4240 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: bu.kata
@@ -2563,7 +2564,7 @@ SplineSet
  2440 1229 l 1
  4240 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: pu.kata
@@ -2611,7 +2612,7 @@ SplineSet
  2440 1229 l 1
  4240 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: he.kata
@@ -2708,7 +2709,7 @@ SplineSet
  2440 -571 l 1
  2440 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: pe.kata
@@ -2760,7 +2761,7 @@ SplineSet
  2440 -571 l 1
  2440 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: ho.kata
@@ -2849,7 +2850,7 @@ SplineSet
  2440 -571 l 1
  2440 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: po.kata
@@ -2897,7 +2898,7 @@ SplineSet
  2440 -571 l 1
  2440 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: ma.kata
@@ -2954,7 +2955,7 @@ SplineSet
  4240 -571 l 1
  2440 -571 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: mi.kata
@@ -3015,7 +3016,7 @@ SplineSet
  4240 -571 l 1
  2440 -571 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: mu.kata
@@ -3072,7 +3073,7 @@ SplineSet
  2440 1229 l 1
  4240 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: me.kata
@@ -3133,7 +3134,7 @@ SplineSet
  2440 -571 l 1
  2440 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: mo.kata
@@ -3190,7 +3191,7 @@ SplineSet
  2440 -571 l 1
  2440 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: xya.kata
@@ -3251,7 +3252,7 @@ SplineSet
  2667.76269531 564.556640625 2474.06738281 400.91796875 2361.68066406 329.274414062 c 0
  2177.31152344 211.743164062 1933.3203125 176.693359375 1706.82519531 176.693359375 c 0
 EndSplineSet
-Validated: 524297
+Validated: 9
 EndChar
 
 StartChar: xyu.kata
@@ -3310,7 +3311,7 @@ SplineSet
  745.887695312 1893.44335938 939.583007812 2057.08203125 1051.96972656 2128.72558594 c 0
  1236.33886719 2246.25683594 1480.33007812 2281.30664062 1706.82519531 2281.30664062 c 0
 EndSplineSet
-Validated: 524297
+Validated: 9
 EndChar
 
 StartChar: xyo.kata
@@ -3371,7 +3372,7 @@ SplineSet
  1113.55664062 268.0625 949.91796875 461.7578125 878.275390625 574.14453125 c 0
  760.744140625 758.513671875 725.693359375 1002.50488281 725.693359375 1229 c 0
 EndSplineSet
-Validated: 524297
+Validated: 9
 EndChar
 
 StartChar: ra.kata
@@ -3416,7 +3417,7 @@ SplineSet
  4240 -571 l 1
  2440 -571 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: ri.kata
@@ -3465,7 +3466,7 @@ SplineSet
  4240 -571 l 1
  2440 -571 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: ru.kata
@@ -3510,7 +3511,7 @@ SplineSet
  2440 1229 l 1
  4240 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: re.kata
@@ -3559,7 +3560,7 @@ SplineSet
  2440 -571 l 1
  2440 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: ro.kata
@@ -3604,7 +3605,7 @@ SplineSet
  2440 -571 l 1
  2440 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: xwa.kata
@@ -3901,7 +3902,7 @@ SplineSet
  2440 1229 l 1
  4240 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" u.kata ddot.kana
 EndChar
 
@@ -3951,7 +3952,7 @@ SplineSet
  4240 -571 l 1
  2440 -571 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" vu.kata xa.kata
 EndChar
 
@@ -4005,7 +4006,7 @@ SplineSet
  4240 -571 l 1
  2440 -571 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" vu.kata xi.kata
 EndChar
 
@@ -4059,7 +4060,7 @@ SplineSet
  2440 -571 l 1
  2440 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" vu.kata xe.kata
 EndChar
 
@@ -4109,7 +4110,7 @@ SplineSet
  2440 1229 l 1
  4240 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" vu.kata xo.kata
 EndChar
 
@@ -4422,7 +4423,7 @@ SplineSet
  1442.01269531 2307.33300781 1268.67871094 2120 1133.34570312 2012 c 0
  1070.67871094 1959.33300781 997.012695312 1899.66699219 912.345703125 1833 c 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: ddot.kana
@@ -4449,7 +4450,7 @@ SplineSet
  1179.22851562 3033.66699219 1366.5625 2860.33300781 1474.5625 2725 c 0
  1527.22851562 2662.33300781 1586.89550781 2588.66699219 1653.5625 2504 c 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: DDOT.kana
@@ -4476,7 +4477,7 @@ SplineSet
  1179.22851562 3033.66699219 1366.5625 2860.33300781 1474.5625 2725 c 0
  1527.22851562 2662.33300781 1586.89550781 2588.66699219 1653.5625 2504 c 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: SEMI.kana
@@ -4503,7 +4504,7 @@ SplineSet
  1442.01269531 2307.33300781 1268.67871094 2120 1133.34570312 2012 c 0
  1070.67871094 1959.33300781 997.012695312 1899.66699219 912.345703125 1833 c 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: XKE.hira
@@ -9605,7 +9606,7 @@ SplineSet
  3250 1147 3310.66699219 853 3432 347 c 0
  3545.33300781 -129 3640 -496 3716 -754 c 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Hira" HU.hira XA.hira
 EndChar
 
@@ -9679,9 +9680,9 @@ SplineSet
  5098.81152344 2504.15625 l 1
  5098.81152344 2504.15527344 l 1
 EndSplineSet
-Validated: 524293
-Ligature2: "'liga' Cuneiform-Hira" VU.hira XA.hira
+Validated: 5
 Ligature2: "'liga' Cuneiform-Hira" U.hira ddot.kana XA.hira
+Ligature2: "'liga' Cuneiform-Hira" VU.hira XA.hira
 EndChar
 
 StartChar: FI.kana
@@ -9752,7 +9753,7 @@ SplineSet
  3390 1147 3450.66699219 853 3572 347 c 0
  3685.33300781 -129 3780 -496 3856 -754 c 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Hira" HU.hira XI.hira
 EndChar
 
@@ -9835,9 +9836,9 @@ SplineSet
  4968.45898438 2662.36328125 5028.22363281 2588.73339844 5094.91015625 2504.15625 c 1
  5094.90917969 2504.15527344 l 1
 EndSplineSet
-Validated: 524325
-Ligature2: "'liga' Cuneiform-Hira" VU.hira XI.hira
+Validated: 37
 Ligature2: "'liga' Cuneiform-Hira" U.hira ddot.kana XI.hira
+Ligature2: "'liga' Cuneiform-Hira" VU.hira XI.hira
 EndChar
 
 StartChar: FU.kana
@@ -9897,7 +9898,7 @@ SplineSet
  1778.66699219 -321 1544.66699219 -381.666992188 1142 -503 c 0
  763.333007812 -616.333007812 471.333007812 -711 266 -787 c 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Hira" HU.hira XU.hira
 EndChar
 
@@ -9965,7 +9966,7 @@ SplineSet
  4268.32617188 2662.31152344 4328.08789062 2588.68066406 4394.72949219 2504.15234375 c 1
  4394.73046875 2504.15234375 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Hira" U.hira ddot.kana
 EndChar
 
@@ -10023,7 +10024,7 @@ SplineSet
  3360 1147 3420.66699219 853 3542 347 c 0
  3655.33300781 -129 3750 -496 3826 -754 c 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Hira" HU.hira XE.hira
 EndChar
 
@@ -10089,7 +10090,7 @@ SplineSet
  5085.60449219 2662.29785156 5145.3671875 2588.66699219 5211.99902344 2504.15039062 c 1
  5212 2504.15234375 l 1
 EndSplineSet
-Validated: 524325
+Validated: 37
 Ligature2: "'liga' Cuneiform-Hira" VU.hira XE.hira
 Ligature2: "'liga' Cuneiform-Hira" U.hira ddot.kana XE.hira
 EndChar
@@ -10167,7 +10168,7 @@ SplineSet
  1974.66699219 -321 1711 -381.666992188 1257 -503 c 0
  829.666992188 -616.333007812 500.333007812 -711 269 -787 c 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Hira" HU.hira XO.hira
 EndChar
 
@@ -10254,7 +10255,7 @@ SplineSet
  5004.31640625 2662.31835938 5064.078125 2588.6875 5130.72949219 2504.15136719 c 1
  5130.73046875 2504.15234375 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Hira" U.hira ddot.kana XO.hira
 Ligature2: "'liga' Cuneiform-Hira" VU.hira XO.hira
 EndChar
@@ -10327,7 +10328,7 @@ SplineSet
  3838.33300781 2577 3855 2550.33300781 3855 2497 c 1
  3855 2497 l 1
 EndSplineSet
-Validated: 524293
+Validated: 5
 Ligature2: "'liga' Cuneiform-Hira" KI.hira XYA.hira
 EndChar
 
@@ -10415,7 +10416,7 @@ SplineSet
  5033.66699219 3033.66699219 5221 2860.33300781 5329 2725 c 0
  5381.66699219 2662.33300781 5441.33300781 2588.66699219 5508 2504 c 1
 EndSplineSet
-Validated: 524293
+Validated: 5
 Ligature2: "'liga' Cuneiform-Hira" GI.hira XYA.hira
 EndChar
 
@@ -10473,7 +10474,7 @@ SplineSet
  894 1849 l 1
  860 -725 l 2
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Hira" KI.hira XYU.hira
 EndChar
 
@@ -10547,7 +10548,7 @@ SplineSet
  5033.66699219 3033.66699219 5221 2860.33300781 5329 2725 c 0
  5381.66699219 2662.33300781 5441.33300781 2588.66699219 5508 2504 c 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Hira" GI.hira XYU.hira
 EndChar
 
@@ -10604,7 +10605,7 @@ SplineSet
  3641.16699219 2818 3789.66699219 2815 3797 2815 c 0
  3841 2812.33300781 3863 2780.33300781 3863 2719 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Hira" KI.hira XYO.hira
 EndChar
 
@@ -10677,7 +10678,7 @@ SplineSet
  5033.66699219 3033.66699219 5221 2860.33300781 5329 2725 c 0
  5381.66699219 2662.33300781 5441.33300781 2588.66699219 5508 2504 c 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Hira" GI.hira XYO.hira
 EndChar
 
@@ -10753,7 +10754,7 @@ SplineSet
  3805 2785 l 2
  3838.33300781 2785 3855 2758.33300781 3855 2705 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Hira" TI.hira XYA.hira
 EndChar
 
@@ -10845,7 +10846,7 @@ SplineSet
  5033.66699219 3033.66699219 5221 2860.33300781 5329 2725 c 0
  5381.66699219 2662.33300781 5441.33300781 2588.66699219 5508 2504 c 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Hira" DI.hira XYA.hira
 EndChar
 
@@ -10909,7 +10910,7 @@ SplineSet
  894 1849 l 1
  972.666992188 1843.66699219 1114.66699219 1826 1320 1796 c 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Hira" TI.hira XYU.hira
 EndChar
 
@@ -10989,7 +10990,7 @@ SplineSet
  5033.66699219 3033.66699219 5221 2860.33300781 5329 2725 c 0
  5381.66699219 2662.33300781 5441.33300781 2588.66699219 5508 2504 c 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Hira" DI.hira XYU.hira
 EndChar
 
@@ -11046,7 +11047,7 @@ SplineSet
  3641.16699219 2818 3789.66699219 2815 3797 2815 c 0
  3841 2812.33300781 3863 2780.33300781 3863 2719 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Hira" TI.hira XYO.hira
 EndChar
 
@@ -11119,7 +11120,7 @@ SplineSet
  5033.66699219 3033.66699219 5221 2860.33300781 5329 2725 c 0
  5381.66699219 2662.33300781 5441.33300781 2588.66699219 5508 2504 c 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Hira" DI.hira XYO.hira
 EndChar
 
@@ -11199,7 +11200,7 @@ SplineSet
  3805 2785 l 2
  3838.33300781 2785 3855 2758.33300781 3855 2705 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Hira" SI.hira XYA.hira
 EndChar
 
@@ -11295,7 +11296,7 @@ SplineSet
  5033.66699219 3033.66699219 5221 2860.33300781 5329 2725 c 0
  5381.66699219 2662.33300781 5441.33300781 2588.66699219 5508 2504 c 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Hira" ZI.hira XYA.hira
 EndChar
 
@@ -11363,7 +11364,7 @@ SplineSet
  488 3226.66699219 668 3245 780 3245 c 0
  892 3245 1072 3226.66699219 1320 3190 c 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Hira" SI.hira XYU.hira
 EndChar
 
@@ -11447,7 +11448,7 @@ SplineSet
  5033.66699219 3033.66699219 5221 2860.33300781 5329 2725 c 0
  5381.66699219 2662.33300781 5441.33300781 2588.66699219 5508 2504 c 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Hira" ZI.hira XYU.hira
 EndChar
 
@@ -11516,7 +11517,7 @@ SplineSet
  3642.83300781 2818 3790.33300781 2815 3797 2815 c 0
  3841 2812.33300781 3863 2780.33300781 3863 2719 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Hira" SI.hira XYO.hira
 EndChar
 
@@ -11601,7 +11602,7 @@ SplineSet
  5033.66699219 3033.66699219 5221 2860.33300781 5329 2725 c 0
  5381.66699219 2662.33300781 5441.33300781 2588.66699219 5508 2504 c 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Hira" ZI.hira XYO.hira
 EndChar
 
@@ -11669,7 +11670,7 @@ SplineSet
  3805 -167 l 2
  3838.33300781 -167 3855 -193.666992188 3855 -247 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Hira" NI.hira XYA.hira
 EndChar
 
@@ -11736,7 +11737,7 @@ SplineSet
  3805 1417 l 2
  3838.33300781 1417 3855 1390.33300781 3855 1337 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Hira" NI.hira XYU.hira
 EndChar
 
@@ -11806,7 +11807,7 @@ SplineSet
  3728.16699219 2817.33300781 3781.66699219 2815.66699219 3797 2815 c 0
  3841 2812.33300781 3863 2780.33300781 3863 2719 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Hira" NI.hira XYO.hira
 EndChar
 
@@ -11886,7 +11887,7 @@ SplineSet
  3805 -167 l 2
  3838.33300781 -167 3855 -193.666992188 3855 -247 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Hira" RI.hira XYA.hira
 EndChar
 
@@ -11953,7 +11954,7 @@ SplineSet
  450.666992188 3231 606.666992188 3245 708 3245 c 0
  809.333007812 3245 965.333007812 3231 1176 3203 c 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Hira" RI.hira XYU.hira
 EndChar
 
@@ -12014,7 +12015,7 @@ SplineSet
  836.666992188 3231 1012 3245 1126 3245 c 0
  1240 3245 1415.33300781 3231 1652 3203 c 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Hira" RI.hira XYO.hira
 EndChar
 
@@ -12090,7 +12091,7 @@ SplineSet
  3805 -167 l 2
  3838.33300781 -167 3855 -193.666992188 3855 -247 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Hira" MI.hira XYA.hira
 EndChar
 
@@ -12157,7 +12158,7 @@ SplineSet
  3805 1417 l 2
  3838.33300781 1417 3855 1390.33300781 3855 1337 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Hira" MI.hira XYU.hira
 EndChar
 
@@ -12238,7 +12239,7 @@ SplineSet
  3728.16699219 2817.33300781 3781.66699219 2815.66699219 3797 2815 c 0
  3841 2812.33300781 3863 2780.33300781 3863 2719 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Hira" MI.hira XYO.hira
 EndChar
 
@@ -12318,7 +12319,7 @@ SplineSet
  3805 -167 l 2
  3838.33300781 -167 3855 -193.666992188 3855 -247 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Hira" HI.hira XYA.hira
 EndChar
 
@@ -12376,7 +12377,7 @@ SplineSet
  2398.66699219 2290.83300781 2194.33300781 2222.33300781 1843 2085 c 0
  1513 1957.66699219 1258.33300781 1851 1079 1765 c 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Hira" HI.hira XYU.hira
 EndChar
 
@@ -12435,7 +12436,7 @@ SplineSet
  3622.33300781 -161.166992188 3787 -164.333007812 3797 -165 c 0x40
  3841 -167.666992188 3863 -199.666992188 3863 -261 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Hira" HI.hira XYO.hira
 EndChar
 
@@ -12531,7 +12532,7 @@ SplineSet
  5296.66699219 2307.33300781 5123.33300781 2120 4988 2012 c 0
  4925.33300781 1959.33300781 4851.66699219 1899.66699219 4767 1833 c 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Hira" HU.hira XYA.hira
 EndChar
 
@@ -12627,7 +12628,7 @@ SplineSet
  5033.66699219 3033.66699219 5221 2860.33300781 5329 2725 c 0
  5381.66699219 2662.33300781 5441.33300781 2588.66699219 5508 2504 c 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Hira" U.hira ddot.kana XYA.hira
 Ligature2: "'liga' Cuneiform-Hira" VU.hira XYA.hira
 EndChar
@@ -12702,7 +12703,7 @@ SplineSet
  5296.66699219 2307.33300781 5123.33300781 2120 4988 2012 c 0
  4925.33300781 1959.33300781 4851.66699219 1899.66699219 4767 1833 c 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Hira" HU.hira XYU.hira
 EndChar
 
@@ -12776,9 +12777,9 @@ SplineSet
  5033.66699219 3033.66699219 5221 2860.33300781 5329 2725 c 0
  5381.66699219 2662.33300781 5441.33300781 2588.66699219 5508 2504 c 1
 EndSplineSet
-Validated: 524321
-Ligature2: "'liga' Cuneiform-Hira" U.hira ddot.kana XYU.hira
+Validated: 33
 Ligature2: "'liga' Cuneiform-Hira" VU.hira XYU.hira
+Ligature2: "'liga' Cuneiform-Hira" U.hira ddot.kana XYU.hira
 EndChar
 
 StartChar: FYO.kana
@@ -12850,7 +12851,7 @@ SplineSet
  5296.66699219 2307.33300781 5123.33300781 2120 4988 2012 c 0
  4925.33300781 1959.33300781 4851.66699219 1899.66699219 4767 1833 c 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Hira" HU.hira XYO.hira
 EndChar
 
@@ -12923,9 +12924,9 @@ SplineSet
  5033.66699219 3033.66699219 5221 2860.33300781 5329 2725 c 0
  5381.66699219 2662.33300781 5441.33300781 2588.66699219 5508 2504 c 1
 EndSplineSet
-Validated: 524321
-Ligature2: "'liga' Cuneiform-Hira" VU.hira XYO.hira
+Validated: 33
 Ligature2: "'liga' Cuneiform-Hira" U.hira ddot.kana XYO.hira
+Ligature2: "'liga' Cuneiform-Hira" VU.hira XYO.hira
 EndChar
 
 StartChar: PYA.kana
@@ -13008,7 +13009,7 @@ SplineSet
  3805 2785 l 2
  3838.33300781 2785 3855 2758.33300781 3855 2705 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Hira" PI.hira XYA.hira
 EndChar
 
@@ -13108,7 +13109,7 @@ SplineSet
  5033.66699219 3033.66699219 5221 2860.33300781 5329 2725 c 0
  5381.66699219 2662.33300781 5441.33300781 2588.66699219 5508 2504 c 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Hira" BI.hira XYA.hira
 EndChar
 
@@ -13174,7 +13175,7 @@ SplineSet
  3642.83300781 -162 3790.33300781 -165 3797 -165 c 0
  3841 -167.666992188 3863 -199.666992188 3863 -261 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Hira" PI.hira XYU.hira
 EndChar
 
@@ -13256,7 +13257,7 @@ SplineSet
  5033.66699219 3033.66699219 5221 2860.33300781 5329 2725 c 0
  5381.66699219 2662.33300781 5441.33300781 2588.66699219 5508 2504 c 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Hira" BI.hira XYU.hira
 EndChar
 
@@ -13321,7 +13322,7 @@ SplineSet
  3622.33300781 -161.166992188 3787 -164.333007812 3797 -165 c 0
  3841 -167.666992188 3863 -199.666992188 3863 -261 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Hira" PI.hira XYO.hira
 EndChar
 
@@ -13402,7 +13403,7 @@ SplineSet
  5033.66699219 3033.66699219 5221 2860.33300781 5329 2725 c 0
  5381.66699219 2662.33300781 5441.33300781 2588.66699219 5508 2504 c 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Hira" BI.hira XYO.hira
 EndChar
 
@@ -13484,7 +13485,8 @@ SplineSet
  2316 2203.33300781 2496 2217 2608 2217 c 0
  2720 2217 2900 2203.33300781 3148 2176 c 1
 EndSplineSet
-Validated: 524293
+Validated: 5
+Ligature2: "'liga' Cuneiform-Hira" KU.hira XWA.hira
 EndChar
 
 StartChar: GWA.kana
@@ -13581,7 +13583,8 @@ SplineSet
  4166.66699219 3033.66699219 4353.66699219 2860.33300781 4461 2725 c 1
  4514.33300781 2662.33300781 4574.33300781 2588.66699219 4641 2504 c 1
 EndSplineSet
-Validated: 524293
+Validated: 5
+Ligature2: "'liga' Cuneiform-Hira" GU.hira XWA.hira
 EndChar
 
 StartChar: HWA.kana
@@ -13675,7 +13678,8 @@ SplineSet
  2004 3245 2184 3226.66699219 2432 3190 c 1
  2432 3190 l 1
 EndSplineSet
-Validated: 524293
+Validated: 5
+Ligature2: "'liga' Cuneiform-Hira" HU.hira XWA.hira
 EndChar
 
 StartChar: AE.kana
@@ -13732,7 +13736,8 @@ SplineSet
  894 1849 l 2
  887.333007812 1338.33300781 876 480.333007812 860 -725 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
+Ligature2: "'liga' Cuneiform-Hira" A.hira semi.kana
 EndChar
 
 StartChar: OE.kana
@@ -13796,7 +13801,8 @@ SplineSet
  894 1849 l 1
  972.666992188 1843.66699219 1114.66699219 1826 1320 1796 c 1
 EndSplineSet
-Validated: 524293
+Validated: 5
+Ligature2: "'liga' Cuneiform-Hira" O.hira semi.kana
 EndChar
 
 StartChar: UE.kana
@@ -13865,7 +13871,8 @@ SplineSet
  892 3245 1072 3226.66699219 1320 3190 c 1
  1320 3190 l 1
 EndSplineSet
-Validated: 524293
+Validated: 5
+Ligature2: "'liga' Cuneiform-Hira" U.hira semi.kana
 EndChar
 
 StartChar: fa.kana
@@ -13930,7 +13937,7 @@ SplineSet
  4240.04492188 -571 l 1
  2440.04492188 -571 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" hu.kata xa.kata
 EndChar
 
@@ -14000,7 +14007,7 @@ SplineSet
  1116.04492188 3090.66699219 1133.04492188 3135.66699219 1167.04492188 3173 c 0
  1201.04492188 3210.33300781 1242.04492188 3229 1290.04492188 3229 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" hu.kata xi.kata
 EndChar
 
@@ -14066,7 +14073,7 @@ SplineSet
  2440.04492188 1229 l 1
  4240.04492188 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" hu.kata xu.kata
 EndChar
 
@@ -14136,7 +14143,7 @@ SplineSet
  1116.04492188 3090.66699219 1133.04492188 3135.66699219 1167.04492188 3173 c 0
  1201.04492188 3210.33300781 1242.04492188 3229 1290.04492188 3229 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" hu.kata xe.kata
 EndChar
 
@@ -14202,7 +14209,7 @@ SplineSet
  2440.04492188 -571 l 1
  2440.04492188 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" hu.kata xo.kata
 EndChar
 
@@ -14278,7 +14285,7 @@ SplineSet
  3880.04492188 149 l 1
  2800.04492188 149 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" ki.kata xya.kata
 EndChar
 
@@ -14355,7 +14362,7 @@ SplineSet
  3880.04492188 149 l 1
  2800.04492188 149 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" gi.kata xya.kata
 EndChar
 
@@ -14431,7 +14438,7 @@ SplineSet
  2800.04492188 509 l 1
  3880.04492188 509 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" ki.kata xyu.kata
 EndChar
 
@@ -14508,7 +14515,7 @@ SplineSet
  2800.04492188 509 l 1
  3880.04492188 509 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" gi.kata xyu.kata
 EndChar
 
@@ -14584,7 +14591,7 @@ SplineSet
  3160.04492188 -211 l 1
  3160.04492188 869 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" ki.kata xyo.kata
 EndChar
 
@@ -14661,7 +14668,7 @@ SplineSet
  3160.04492188 -211 l 1
  3160.04492188 869 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" gi.kata xyo.kata
 EndChar
 
@@ -14738,7 +14745,7 @@ SplineSet
  3880 -211 l 1
  3880 149 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" ti.kata xya.kata
 EndChar
 
@@ -14813,7 +14820,7 @@ SplineSet
  3880 -211 l 1
  3880 149 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" di.kata xya.kata
 EndChar
 
@@ -14890,7 +14897,8 @@ SplineSet
  3520 869 l 1
  3520 -211 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
+Ligature2: "'liga' Cuneiform-Kata" ti.kata xe.kata
 EndChar
 
 StartChar: dye.kana
@@ -14964,7 +14972,8 @@ SplineSet
  3880 869 l 1
  3520 869 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
+Ligature2: "'liga' Cuneiform-Kata" di.kata xe.kata
 EndChar
 
 StartChar: tyu.kana
@@ -15040,7 +15049,7 @@ SplineSet
  2800 509 l 1
  3880 509 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" ti.kata xyu.kata
 EndChar
 
@@ -15115,7 +15124,7 @@ SplineSet
  2800 869 l 1
  2800 509 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" di.kata xyu.kata
 EndChar
 
@@ -15192,7 +15201,7 @@ SplineSet
  3160 -211 l 1
  3160 869 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" ti.kata xyo.kata
 EndChar
 
@@ -15267,7 +15276,7 @@ SplineSet
  3160 -211 l 1
  3160 869 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" di.kata xyo.kata
 EndChar
 
@@ -15344,7 +15353,7 @@ SplineSet
  3880 149 l 1
  2800 149 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" si.kata xya.kata
 EndChar
 
@@ -15421,7 +15430,7 @@ SplineSet
  3880 149 l 1
  2800 149 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" zi.kata xya.kata
 EndChar
 
@@ -15496,7 +15505,8 @@ SplineSet
  3520 869 l 1
  3520 -211 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
+Ligature2: "'liga' Cuneiform-Kata" si.kata xe.kata
 EndChar
 
 StartChar: zye.kana
@@ -15572,7 +15582,8 @@ SplineSet
  3520 869 l 1
  3520 -211 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
+Ligature2: "'liga' Cuneiform-Kata" zi.kata xe.kata
 EndChar
 
 StartChar: syu.kana
@@ -15646,7 +15657,7 @@ SplineSet
  2800 509 l 1
  3880 509 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" si.kata xyu.kata
 EndChar
 
@@ -15723,7 +15734,7 @@ SplineSet
  2800 509 l 1
  3880 509 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" zi.kata xyu.kata
 EndChar
 
@@ -15798,7 +15809,7 @@ SplineSet
  3160 -211 l 1
  3160 869 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" si.kata xyo.kata
 EndChar
 
@@ -15875,7 +15886,7 @@ SplineSet
  3160 -211 l 1
  3160 869 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" zi.kata xyo.kata
 EndChar
 
@@ -15972,7 +15983,7 @@ SplineSet
  531.759765625 3063.66699219 606.259765625 3122.33300781 694.59375 3165 c 0
  782.926757812 3207.66699219 877.09375 3229 977.09375 3229 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" ni.kata xya.kata
 EndChar
 
@@ -16067,7 +16078,7 @@ SplineSet
  531.759765625 3063.66699219 606.259765625 3122.33300781 694.59375 3165 c 0
  782.926757812 3207.66699219 877.09375 3229 977.09375 3229 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" ni.kata xyu.kata
 EndChar
 
@@ -16162,7 +16173,7 @@ SplineSet
  531.759765625 3063.66699219 606.259765625 3122.33300781 694.59375 3165 c 0
  782.926757812 3207.66699219 877.09375 3229 977.09375 3229 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" ni.kata xyo.kata
 EndChar
 
@@ -16226,7 +16237,7 @@ SplineSet
  3880.99316406 149 l 1
  2800.99316406 149 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" ri.kata xya.kata
 EndChar
 
@@ -16290,7 +16301,7 @@ SplineSet
  2800.99316406 509 l 1
  3880.99316406 509 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" ri.kata xyu.kata
 EndChar
 
@@ -16354,7 +16365,7 @@ SplineSet
  3160.99316406 -211 l 1
  3160.99316406 869 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" ri.kata xyo.kata
 EndChar
 
@@ -16448,7 +16459,7 @@ SplineSet
  1141.75976562 3151 1162.42675781 3177.16699219 1191.09375 3197.5 c 0
  1219.75976562 3217.83300781 1251.75976562 3228.33300781 1287.09375 3229 c 2
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" mi.kata xya.kata
 EndChar
 
@@ -16542,7 +16553,7 @@ SplineSet
  1141.75976562 3151 1162.42675781 3177.16699219 1191.09375 3197.5 c 0
  1219.75976562 3217.83300781 1251.75976562 3228.33300781 1287.09375 3229 c 2
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" mi.kata xyu.kata
 EndChar
 
@@ -16636,7 +16647,7 @@ SplineSet
  1141.75976562 3151 1162.42675781 3177.16699219 1191.09375 3197.5 c 0
  1219.75976562 3217.83300781 1251.75976562 3228.33300781 1287.09375 3229 c 2
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" mi.kata xyo.kata
 EndChar
 
@@ -16719,7 +16730,7 @@ SplineSet
  3879 149 l 1
  2799 149 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Kata" hi.kata xya.kata
 EndChar
 
@@ -16802,7 +16813,7 @@ SplineSet
  2799 869 l 1
  2799 509 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Kata" hi.kata xyu.kata
 EndChar
 
@@ -16885,7 +16896,7 @@ SplineSet
  3159 -211 l 1
  3159 869 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "'liga' Cuneiform-Kata" hi.kata xyo.kata
 EndChar
 
@@ -16958,7 +16969,7 @@ SplineSet
  3880.04492188 149 l 1
  2800.04492188 149 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" hu.kata xya.kata
 EndChar
 
@@ -17035,7 +17046,7 @@ SplineSet
  1116.04492188 3090.66699219 1133.04492188 3135.66699219 1167.04492188 3173 c 0
  1201.04492188 3210.33300781 1242.04492188 3229 1290.04492188 3229 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" vu.kata xya.kata
 EndChar
 
@@ -17106,7 +17117,7 @@ SplineSet
  2800.04492188 509 l 1
  3880.04492188 509 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" hu.kata xyu.kata
 EndChar
 
@@ -17183,7 +17194,7 @@ SplineSet
  1116.04492188 3090.66699219 1133.04492188 3135.66699219 1167.04492188 3173 c 0
  1201.04492188 3210.33300781 1242.04492188 3229 1290.04492188 3229 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" vu.kata xyu.kata
 EndChar
 
@@ -17256,7 +17267,7 @@ SplineSet
  3160.04492188 -211 l 1
  3160.04492188 869 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" hu.kata xyo.kata
 EndChar
 
@@ -17333,7 +17344,7 @@ SplineSet
  1116.04492188 3090.66699219 1133.04492188 3135.66699219 1167.04492188 3173 c 0
  1201.04492188 3210.33300781 1242.04492188 3229 1290.04492188 3229 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" vu.kata xyo.kata
 EndChar
 
@@ -17410,7 +17421,7 @@ SplineSet
  3880.04492188 149 l 1
  2800.04492188 149 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" pi.kata xya.kata
 EndChar
 
@@ -17486,7 +17497,7 @@ SplineSet
  3880.04492188 149 l 1
  2800.04492188 149 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" bi.kata xya.kata
 EndChar
 
@@ -17563,7 +17574,7 @@ SplineSet
  2800.04492188 509 l 1
  3880.04492188 509 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" pi.kata xyu.kata
 EndChar
 
@@ -17639,7 +17650,7 @@ SplineSet
  2800.04492188 509 l 1
  3880.04492188 509 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" bi.kata xyu.kata
 EndChar
 
@@ -17716,7 +17727,7 @@ SplineSet
  2800.04492188 -211 l 1
  3160.04492188 -211 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" pi.kata xyo.kata
 EndChar
 
@@ -17792,7 +17803,7 @@ SplineSet
  2800.04492188 -211 l 1
  3160.04492188 -211 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "'liga' Cuneiform-Kata" bi.kata xyo.kata
 EndChar
 
@@ -17875,7 +17886,8 @@ SplineSet
  3879 869 l 1
  3519 869 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
+Ligature2: "'liga' Cuneiform-Kata" hi.kata xe.kata
 EndChar
 
 StartChar: fye.kana
@@ -17945,7 +17957,8 @@ SplineSet
  3520.04492188 869 l 1
  3520.04492188 -211 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
+Ligature2: "'liga' Cuneiform-Kata" hu.kata xe.kata
 EndChar
 
 StartChar: vye.kana
@@ -18021,7 +18034,8 @@ SplineSet
  1116.04492188 3090.66699219 1133.04492188 3135.66699219 1167.04492188 3173 c 0
  1201.04492188 3210.33300781 1242.04492188 3229 1290.04492188 3229 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+Ligature2: "'liga' Cuneiform-Kata" vu.kata xe.kata
 EndChar
 
 StartChar: kye.kana
@@ -18096,7 +18110,8 @@ SplineSet
  3520.04492188 869 l 1
  3520.04492188 -211 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
+Ligature2: "'liga' Cuneiform-Kata" ki.kata xe.kata
 EndChar
 
 StartChar: gye.kana
@@ -18172,7 +18187,8 @@ SplineSet
  3520.04492188 869 l 1
  3520.04492188 -211 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
+Ligature2: "'liga' Cuneiform-Kata" gi.kata xe.kata
 EndChar
 
 StartChar: pye.kana
@@ -18248,7 +18264,8 @@ SplineSet
  3520.04492188 869 l 1
  3520.04492188 -211 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
+Ligature2: "'liga' Cuneiform-Kata" pi.kata xe.kata
 EndChar
 
 StartChar: bye.kana
@@ -18323,7 +18340,8 @@ SplineSet
  3520.04492188 869 l 1
  3520.04492188 -211 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
+Ligature2: "'liga' Cuneiform-Kata" bi.kata xe.kata
 EndChar
 
 StartChar: rye.kana
@@ -18386,7 +18404,8 @@ SplineSet
  3520.99316406 869 l 1
  3520.99316406 -211 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
+Ligature2: "'liga' Cuneiform-Kata" ri.kata xe.kata
 EndChar
 
 StartChar: mye.kana
@@ -18479,7 +18498,8 @@ SplineSet
  1141.75976562 3151 1162.42675781 3177.16699219 1191.09375 3197.5 c 0
  1219.75976562 3217.83300781 1251.75976562 3228.33300781 1287.09375 3229 c 2
 EndSplineSet
-Validated: 524321
+Validated: 33
+Ligature2: "'liga' Cuneiform-Kata" mi.kata xe.kata
 EndChar
 
 StartChar: nye.kana
@@ -18573,7 +18593,8 @@ SplineSet
  531.759765625 3063.66699219 606.259765625 3122.33300781 694.59375 3165 c 0
  782.926757812 3207.66699219 877.09375 3229 977.09375 3229 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+Ligature2: "'liga' Cuneiform-Kata" ni.kata xe.kata
 EndChar
 
 StartChar: hwa.kana
@@ -18640,7 +18661,8 @@ SplineSet
  1229.83300781 3219.33300781 1258.66699219 3229 1290 3229 c 2
  1291 3229 l 2
 EndSplineSet
-Validated: 524321
+Validated: 33
+Ligature2: "'liga' Cuneiform-Kata" hu.kata xwa.kata
 EndChar
 
 StartChar: kwa.kana
@@ -18715,7 +18737,8 @@ SplineSet
  2440.04492188 869 l 1
  2440.04492188 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
+Ligature2: "'liga' Cuneiform-Kata" ku.kata xwa.kata
 EndChar
 
 StartChar: gwa.kana
@@ -18791,7 +18814,8 @@ SplineSet
  2440.04492188 869 l 1
  2440.04492188 1229 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
+Ligature2: "'liga' Cuneiform-Kata" gu.kata xwa.kata
 EndChar
 
 StartChar: ae.kana
@@ -18843,7 +18867,8 @@ SplineSet
  334 222 301.833007812 251.333007812 277.5 290 c 0
  253.166992188 328.666992188 240.666992188 371.333007812 240 418 c 2
 EndSplineSet
-Validated: 524321
+Validated: 33
+Ligature2: "'liga' Cuneiform-Kata" a.kata semi.kana
 EndChar
 
 StartChar: oe.kana
@@ -18902,7 +18927,8 @@ SplineSet
  1049 1296.33300781 1072.66699219 1353.66699219 1120 1401 c 0
  1167.33300781 1448.33300781 1224.66699219 1472 1292 1472 c 2
 EndSplineSet
-Validated: 524321
+Validated: 33
+Ligature2: "'liga' Cuneiform-Kata" o.kata semi.kana
 EndChar
 
 StartChar: ue.kana
@@ -18961,7 +18987,8 @@ SplineSet
  1639.5 500 1582.33300781 523.666992188 1535 571 c 0
  1487.66699219 618.333007812 1464 675.666992188 1464 743 c 2
 EndSplineSet
-Validated: 524321
+Validated: 33
+Ligature2: "'liga' Cuneiform-Kata" u.kata semi.kana
 EndChar
 
 StartChar: xae.kana
@@ -18982,6 +19009,7 @@ SplineSet
  2288 -307 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'liga' Cuneiform-Kata" xa.kata semi.kana
 EndChar
 
 StartChar: xoe.kana
@@ -19006,6 +19034,7 @@ SplineSet
  2288 1741 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'liga' Cuneiform-Kata" xo.kata semi.kana
 EndChar
 
 StartChar: xue.kana
@@ -19030,6 +19059,7 @@ SplineSet
  240 1741 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'liga' Cuneiform-Kata" xu.kata semi.kana
 EndChar
 EndChars
 EndSplineFont
