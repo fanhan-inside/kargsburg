@@ -8,6 +8,27 @@
     <!-- <script src="https://cdn.jsdelivr.net/npm/less@4"></script> -->
     <script src="https://cdn.bootcdn.net/ajax/libs/less.js/4.1.2/less.min.js"></script>
     <title>象形文字等</title>
+    <style type="text/css">
+        #egyab {
+            margin-left: -42px;
+        }
+
+        #egyab tbody>tr:nth-child(1)>td {
+            color: orangered;
+        }
+
+        #egyab tbody>tr:nth-child(2)>td {
+            color: firebrick;
+        }
+
+        #bopomofo tbody>tr:nth-child(1)>td {
+            color: darkmagenta;
+        }
+
+        tr:lang(egy)>td {
+            color: saddlebrown;
+        }
+    </style>
 </head>
 
 <body>
@@ -16,9 +37,477 @@
         <h2 class="remark"></h2>
     </header>
     <main>
-        <p>埃及单音字母拉丁转写：<span class="tran">A i y a w b p f m n r h H x X z s S q k g t T d D W M N R K l j</span></p>
-        <p>僧侣体埃及单音字母：<span class="hier">A i y a w b p f m n r h H x X z s S q k g t T d D W M N R K l j</span></p>
-        <p><q lang="fhn">含语拼音</q>：<span class="bpmf">b p m f d t n l g k h j q x Z C S r z c s N K R a o e i u y</span></p>
+        <h2 class="heading">埃及单音字母</h2>
+        <p>拉丁转写：<span class="tran">A i y a w b p f m n r h H x X z s S q k g t T d D W M N R K l j</span></p>
+        <p>僧侣体：<span class="hier">A i y a w b p f m n r h H x X z s S q k g t T d D W M N R K l j</span></p>
+        <table id="egyab">
+            <thead>
+                <tr>
+                    <th>A</th>
+                    <th>i</th>
+                    <th>y</th>
+                    <th>a</th>
+                    <th>w</th>
+                    <th>b</th>
+                    <th>p</th>
+                    <th>f</th>
+                    <th>m</th>
+                    <th>n</th>
+                    <th>r</th>
+                    <th>h</th>
+                    <th>H</th>
+                    <th>x</th>
+                    <th>X</th>
+                    <th>z</th>
+                    <th>s</th>
+                    <th>S</th>
+                    <th>q</th>
+                    <th>k</th>
+                    <th>g</th>
+                    <th>t</th>
+                    <th>T</th>
+                    <th>d</th>
+                    <th>D</th>
+                    <th>W</th>
+                    <th>M</th>
+                    <th>N</th>
+                    <th>R</th>
+                    <th>K</th>
+                    <th>l</th>
+                    <th>j</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr lang="tran">
+                    <td>A</td>
+                    <td>i</td>
+                    <td>y</td>
+                    <td>a</td>
+                    <td>w</td>
+                    <td>b</td>
+                    <td>p</td>
+                    <td>f</td>
+                    <td>m</td>
+                    <td>n</td>
+                    <td>r</td>
+                    <td>h</td>
+                    <td>H</td>
+                    <td>x</td>
+                    <td>X</td>
+                    <td>z</td>
+                    <td>s</td>
+                    <td>S</td>
+                    <td>q</td>
+                    <td>k</td>
+                    <td>g</td>
+                    <td>t</td>
+                    <td>T</td>
+                    <td>d</td>
+                    <td>D</td>
+                    <td>W</td>
+                    <td>M</td>
+                    <td>N</td>
+                    <td>R</td>
+                    <td>K</td>
+                    <td>l</td>
+                    <td>j</td>
+                </tr>
+                <tr lang="hier">
+                    <td>A</td>
+                    <td>i</td>
+                    <td>y</td>
+                    <td>a</td>
+                    <td>w</td>
+                    <td>b</td>
+                    <td>p</td>
+                    <td>f</td>
+                    <td>m</td>
+                    <td>n</td>
+                    <td>r</td>
+                    <td>h</td>
+                    <td>H</td>
+                    <td>x</td>
+                    <td>X</td>
+                    <td>z</td>
+                    <td>s</td>
+                    <td>S</td>
+                    <td>q</td>
+                    <td>k</td>
+                    <td>g</td>
+                    <td>t</td>
+                    <td>T</td>
+                    <td>d</td>
+                    <td>D</td>
+                    <td>W</td>
+                    <td>M</td>
+                    <td>N</td>
+                    <td>R</td>
+                    <td>K</td>
+                    <td>l</td>
+                    <td>j</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 class="heading"><q lang="fhn">含语拼音</q></h2>
+        <table id="bopomofo">
+            <thead>
+                <tr>
+                    <th>b</th>
+                    <th>p</th>
+                    <th>m</th>
+                    <th>f</th>
+                    <th>d</th>
+                    <th>t</th>
+                    <th>n</th>
+                    <th>l</th>
+                    <th>g</th>
+                    <th>k</th>
+                    <th>h</th>
+                    <th>j</th>
+                    <th>q</th>
+                    <th>x</th>
+                    <th>Z</th>
+                    <th>C</th>
+                    <th>S</th>
+                    <th>r</th>
+                    <th>z</th>
+                    <th>c</th>
+                    <th>s</th>
+                    <th>N</th>
+                    <th>K</th>
+                    <th>R</th>
+                    <th>a</th>
+                    <th>o</th>
+                    <th>e</th>
+                    <th>i</th>
+                    <th>u</th>
+                    <th>y</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr lang="bpmf">
+                    <td>b</td>
+                    <td>p</td>
+                    <td>m</td>
+                    <td>f</td>
+                    <td>d</td>
+                    <td>t</td>
+                    <td>n</td>
+                    <td>l</td>
+                    <td>g</td>
+                    <td>k</td>
+                    <td>h</td>
+                    <td>j</td>
+                    <td>q</td>
+                    <td>x</td>
+                    <td>Z</td>
+                    <td>C</td>
+                    <td>S</td>
+                    <td>r</td>
+                    <td>z</td>
+                    <td>c</td>
+                    <td>s</td>
+                    <td>N</td>
+                    <td>K</td>
+                    <td>R</td>
+                    <td>a</td>
+                    <td>o</td>
+                    <td>e</td>
+                    <td>i</td>
+                    <td>u</td>
+                    <td>y</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 class="heading">埃及神名</h2>
+        <h3 class="heading"><span>埃及八元神</span></h3>
+        <table>
+            <thead>
+                <tr lang="tran">
+                    <th>nnw</th>
+                    <th>kkw</th>
+                    <th>Hw</th>
+                    <th>qrH</th>
+                    <th>jmn</th>
+                    <th>kk</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr lang="egy">
+                    <td>`nnw^</td>
+                    <td>`kkw^</td>
+                    <td>`Hw^</td>
+                    <td>`qrH^</td>
+                    <td>`jmn^</td>
+                    <td>`kk^</td>
+                </tr>
+                <tr lang="egy">
+                    <td>`nnwt^</td>
+                    <td>`kkwt^</td>
+                    <td>`Hwt^</td>
+                    <td>`qrHt^</td>
+                    <td>`jmnt^</td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr lang="tran">
+                    <th>nnwt</th>
+                    <th>kkwt</th>
+                    <th>Hwt</th>
+                    <th>qrHt</th>
+                    <th>jmnt</th>
+                    <th></th>
+                </tr>
+            </tfoot>
+        </table>
+
+        <h3 class="heading"><span>埃及九柱神</span></h3>
+        <table>
+            <thead>
+                <tr lang="tran">
+                    <th>atm</th>
+                    <th>ra</th>
+                    <th>Sw</th>
+                    <th>tfnt</th>
+                    <th>gbb</th>
+                    <th>nwt</th>
+                    <th>wsjr</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr lang="egy">
+                    <td>`atum^</td>
+                    <td>`ra^</td>
+                    <td>`Sw^</td>
+                    <td>`tfnt^</td>
+                    <td>`gbb^</td>
+                    <td>`nwt^</td>
+                    <td>`wsjr^</td>
+                </tr>
+                <tr lang="egy">
+                    <td>`Ast^</td>
+                    <td>`stX1^</td>
+                    <td>`stX2^</td>
+                    <td>`stX3^</td>
+                    <td>`nbtHwt^</td>
+                    <td>`tyet^</td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr lang="tran">
+                    <th>Ast</th>
+                    <th colspan="3">stX</th>
+                    <th>nbtHwt</th>
+                    <th lang="la">tyet</th>
+                    <th></th>
+                </tr>
+            </tfoot>
+        </table>
+
+        <h3 class="heading"><span>孟菲斯与底比斯诸神</span></h3>
+        <table>
+            <thead>
+                <tr lang="tran">
+                    <th>ptH</th>
+                    <th>sxmt</th>
+                    <th>nftm</th>
+                    <th>jmn</th>
+                    <th>mt</th>
+                    <th>xnsw</th>
+                    <th>mrtsgr</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr lang="egy">
+                    <td>`ptH^</td>
+                    <td>`sxmt^</td>
+                    <td>`nftm^</td>
+                    <td>`jmn^</td>
+                    <td>`mt^</td>
+                    <td>`xnsw^</td>
+                    <td>`mrtsgr^</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3 class="heading"><span>埃及冥界诸神</span></h3>
+        <table>
+            <thead>
+                <tr lang="tran">
+                    <th colspan="2">jnpw</th>
+                    <th>Hr</th>
+                    <th>iMzti</th>
+                    <th>hApy</th>
+                    <th colspan="2">dwAmwtf</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr lang="egy">
+                    <td>`jnpw1^</td>
+                    <td>`jnpw2^</td>
+                    <td>`Hr^</td>
+                    <td>`iMzti^</td>
+                    <td>`hApy^</td>
+                    <td>`dwAmwtf1^</td>
+                    <td>`dwAmwtf2^</td>
+                </tr>
+                <tr lang="egy">
+                    <td>`qbHsnwf^</td>
+                    <td>`DHwtj1^</td>
+                    <td>`DHwtj2^</td>
+                    <td>`DHwtj3^</td>
+                    <td>`HwtHr1^</td>
+                    <td>`HwtHr2^</td>
+                    <td>`msxnt^</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr lang="tran">
+                    <th>qbHsnwf</th>
+                    <th colspan="3">DHwtj</th>
+                    <th colspan="2">HwtHr</th>
+                    <th>msxnt</th>
+                </tr>
+            </tfoot>
+        </table>
+
+        <h3 class="heading"><span>埃及其它诸神</span></h3>
+        <div>
+            <ruby lang="hier">mAat<rt lang="tran">mAat</rt></ruby><q lang="egy">`mAat^</q><q lang="egy">`mAat1^</q><q lang="egy">`mAat2^</q>
+            <ruby lang="hier">mnw<rt lang="tran">mnw</rt></ruby><q lang="egy">`mnw^</q><ruby lang="hier">xnwm<rt lang="tran">xnwm</rt></ruby><q lang="egy">`xnwm1^</q><q lang="egy">`xnwm2^</q>
+            <ruby lang="hier">sbk<rt lang="tran">sbk</rt></ruby><q lang="egy">`sbk^</q>
+            <br />
+            <ruby lang="hier">bAstt<rt lang="tran">bAstt</rt></ruby><q lang="egy">`bAstt^</q>
+            <ruby lang="hier">zrqt<rt lang="tran">zrqt</rt></ruby><q lang="egy">`zrqt^</q>
+            <ruby lang="hier">HqAt<rt lang="tran">HqAt</rt></ruby><q lang="egy">`HqAt^</q>
+            <ruby lang="hier">xpri<rt lang="tran">xpri</rt></ruby><q lang="egy">`xpri^</q>
+            <ruby lang="hier">anqt<rt lang="tran">anqt</rt></ruby><q lang="egy">`anqt^</q>
+            <br />
+            <ruby lang="hier">nxbt<rt lang="tran">nxbt</rt></ruby><q lang="egy">`nxbt^</q>
+            <ruby lang="hier">mfdt<rt lang="tran">mfdt</rt></ruby><q lang="egy">`mfdt^</q>
+            <ruby lang="hier">bS<rt lang="tran">bS</rt></ruby><q lang="egy">`bS^</q>
+            <ruby lang="hier">Hapj<rt lang="tran">Hapj</rt></ruby><q lang="egy">`Hapj^</q>
+            <ruby lang="hier">aApp<rt lang="tran">aApp</rt></ruby><q lang="egy">`aApp^</q>
+            <br />
+            <ruby lang="hier">anhr<rt lang="tran">anhr</rt></ruby><q lang="egy">`anhr^</q>
+            <ruby lang="hier">nt<rt lang="tran">nt</rt></ruby><q lang="egy">`nt^</q>
+            <ruby lang="hier">spdt<rt lang="tran">spdt</rt></ruby><q lang="egy">`spdt^</q>
+            <ruby lang="hier">wnwt<rt lang="tran">wnwt</rt></ruby><q lang="egy">`wnwt^</q>
+            <ruby lang="hier">itn<rt lang="tran">itn</rt></ruby><q lang="egy">`itn^</q>
+            <ruby lang="hier">Hp<rt lang="tran">Hp</rt></ruby><q lang="egy">`Hp^</q>
+            <br />
+            <ruby lang="hier">ammt<rt lang="tran">ammt</rt></ruby><q lang="egy">`ammt^</q>
+            <ruby lang="hier">bnw<rt lang="tran">bnw</rt></ruby><q lang="egy">`bnw1^</q><q lang="egy">`bnw2^</q>
+            <ruby lang="hier">Szpanx<rt lang="tran">Szpanx</rt></ruby><q lang="egy">`Szpanx^</q>
+        </div>
+
+        <h2 class="heading">文本中运用</h2>
+        <article class="narrate">
+            <p>“足够照亮伯利恒的夜空，让波斯大手名校那仨博士看见了”，雅梅确实在捧杀中有些飘飘然了，现在嘴硬，“知道了，你去吧，换个说法就行”。</p>
+            <p>助理走了，去应付狗仔队了。雅梅喘了口气，开始回忆刚才的惊险。</p>
+            <blockquote class="yelo">
+                <p>小巷当中，墙角倒伏着一具仆街尸体，天灵盖上有个洞，涌出的脑浆和鲜血已经凝固。</p>
+                <p>“<ruby><span class="circle">安息</span>
+                        <rt lang="la">quietum</rt>
+                    </ruby>……”，有位谢顶人士嘟囔，伸手不见五指的深夜里没有炬火，秃瓢便是那唯一的光，“啊嘞，是我有口音吗？”</p>
+                <p>当然不是，暗处隐藏身形的雅梅想，人微言轻哪怕字正腔圆领导也听而不闻，但是从刚才的灵能波动判断，这位至少也是个甚荣祭司，即便建言献策有些许口误也会被组织收纳整理，能否上达天听那就另说了。</p>
+                <p>“难道说”，谢顶人士抬头看着东方地平线，似乎就要有曙光出现，“亲爱的<ruby><span class="ipa">xɛpri</span>
+                        <rt lang="egy">`xpri^</rt>
+                    </ruby>还没上岗呢，尊敬的<ruby><span class="ipa">aˈtum</span>
+                        <rt lang="egy">`atum^</rt>
+                    </ruby>就准备下班了？”</p>
+                <p>也不是，如果没有及时作梗的话，雅梅暗道，手心握着一大块负能量晶体，拇指食指中指捏着一颗魂珠，这个目标真的就被他超度了。</p>
+                <p>“抓紧时间吧”，谢顶人士掏出一颗水晶，用拇指中指无名指捏着，“<ruby><span class="circle">净化</span>
+                        <rt lang="la">purgatum</rt>
+                    </ruby>！”</p>
+                <p>雅梅脑壳里轰隆一声响，几乎昏厥，险些捏不住魂珠，负能量晶体的黑色迅速消退，接近透明，赶紧再掏出一块续上，还好没有暴露行踪。</p>
+            </blockquote>
+            <p>现在那个单词，还在耳边回荡，余音绕梁三日不绝，刚才早餐都没尝出肉味来。</p>
+            <hr />
+            <p>——《范版西幻设定集》第二辑草稿<a target="_blank" href="http://fanhan-inside.bitbucket.io/fantasy/fanism/v02_draft/v02-007.html">〈农奴的工匠精神〉</a>（原名〈千锤百炼粉身碎骨〉）</p>
+        </article>
+        <article class="narrate">
+            <p>“那么你们对于罗马人是什么看法？”吕丹问，“不，你觉得传闻中已经消失的伊特鲁里亚人，如果还有后裔的话，对罗马人应该是什么看法？”</p>
+            <p>“你说，罗慕路斯与雷穆斯既然是双胞胎”，恩里克反问，“自己怎么知道谁是哥哥谁是弟弟呢？”</p>
+            <p>“一般来说都是爹娘认证的，全凭自由心证，弄错了也会将错就错沿用下去”，吕丹根据生活经验回答， 然后想起了问题的关键，“对啊，传说中抚养他俩的，是一头母狼”。</p>
+            <p>“天上最为耀眼的<q lang="egy">`spdt^</q>”，恩里克指向天狼星的方向，虽然现在是白天，“是一条母狗”。</p>
+            <hr />
+            <p>——《范版西幻设定集》第二辑草稿<a target="_blank" href="http://fanhan-inside.bitbucket.io/fantasy/fanism/v02_draft/v02-008.html">〈血脖红胡赤卫队〉</a>（原名〈哲合忍耶束赫达伊〉）</p>
+        </article>
+        <article class="narrate">
+            <blockquote class="pink">
+                <p>约瑟夫临终的时候，家人聚集在身边。</p>
+                <p>约瑟夫见到耶稣就问：“你是耶稣还是秀全？”</p>
+                <p>耶稣答道：“我是耶稣，马莉娅的儿子。”</p>
+                <p>约瑟夫又问秀全：“你就是秀全了？”</p>
+                <p>秀全答道：“<ruby><ruby>阿爸<rt lang="arc">&#x10840;&#x10841;&#x10840;</rt></ruby>
+                        <rt class="ipa">ʔabɑ</rt>
+                    </ruby>，<ruby><ruby>阿父<rt lang="smp">&#x0800;&#x0801;&#x0800;</rt></ruby>
+                        <rt class="ipa">ʔavɑ</rt>
+                    </ruby>，在祢凡事都能。我是秀全，您的儿子。”</p>
+                <p>约瑟夫对秀全说：“我称你为<ruby><ruby>巴拉巴<rt lang="phn">&#x10901;&#x10913;&nbsp;&#x10900;&#x10901;&#x10900;</rt></ruby>
+                        <rt class="ipa">bar ʔɛbɑʔ</rt>
+                    </ruby>并把芝麻山洞的开门密码告诉你，我的事业建立在那山洞中，外人的觊觎，不能胜过你。”</p>
+                <p>——《石达开福音》</p>
+            </blockquote>
+            <p>“这种报纸，早就该封了，简直是阿尔萨斯之耻、<ruby>说客<rt lang="en">bard</rt></ruby>之耻”，<ruby>梁效<rt lang="fr">Léonchaud</rt></ruby>把《苹果日报》终刊号扔在桌上，“从明天开始，阿尔萨斯每年会少三万张废纸。”</p>
+            <blockquote class="pink">
+                <p>“你是方针、政策、路线、计划，还是完成啊？”</p>
+                <p>“<ruby><ruby>阿爸<rt lang="phn">&#x10900;&#x10901;&#x10900;</rt></ruby>
+                        <rt class="ipa">ʔabɑ</rt>
+                    </ruby>，<ruby><ruby>阿父<rt lang="syc">&#x0710;&#x0711;&#x0710;</rt></ruby>
+                        <rt class="ipa">ʔavɑ</rt>
+                    </ruby>，我是总结。”</p>
+                <p>“我生阿拉法，我生贝塔，我生伽玛，我生德尔塔，我生泽塔，我一直生到了俄梅戛”，耶稣说，“我是首先的，我是末后的。我是初，我是终。我必将加冕新时代王冠。”</p>
+                <p>——《冯云山福音》</p>
+            </blockquote>
+            <p>“这种杂志，也该封了，简直是阿尔萨斯之耻，洛林之耻”，<ruby><ruby>阿里巴拉巴<rt lang="he">עלי בר אבא</rt></ruby>
+                    <rt class="ipa">ʕeli bar ʔɛbɑʔ</rt>
+                </ruby>或曰<ruby><ruby>阿里本阿巴<rt lang="ar">علي بن باب</rt></ruby>
+                    <rt class="ipa">ʕali ibn ʔɛbɑʔ</rt>
+                </ruby>把《壹周刊（斯特拉斯堡）》终刊号扔在桌上，“连希腊字母表都背不全。”</p>
+            <p>“但是照样拿了香槟杯普利策奖”，梁效有不同意见，“只要钱给到位，总有大手名校的博士生导师写雄文辩护，说色目字母表背全了。<sup>①</sup>”</p>
+            <p>“也是，埃普西龙和伊普西龙都是混进来的野种”，阿里酸溜溜的说，“俩小样儿都惦记着反客为主篡党夺权，只不过一个成功了，一个失败了。”</p>
+            <p>“就连本尊也是不务正业”，梁效酸溜溜的说，“本来表示辅音，刚跳槽就表示元音了。”</p>
+            <p>“我们的嗓子眼比较灵活，你们舌头短”，阿里得意的说，“搞出尖团合流来还钦定为普通话标准语。”</p>
+            <p>“我们嘴里干干净净，笔下清清楚楚，你们嘴里胡说八道，笔下更是莫名其妙”，梁效得意的说，“一通狂草写完，对方问写的是啥，自己都给忘了。<sup>②</sup>”</p>
+            <blockquote class="pink">
+                <p>“<ruby><ruby>阿爸<rt lang="uga">&#x10380;&#x10381;&#x10380;</rt></ruby>
+                        <rt class="ipa">ʔabɑ</rt>
+                    </ruby>，
+                    <ruby><ruby>阿父<rt lang="xpu">&#x10A71;&#x10A68;&#x10A71;</rt></ruby>
+                        <rt class="ipa">ʔavɑ</rt>
+                    </ruby>”，杨秀清在十字架上哀嚎，“<ruby><ruby>为什么抛弃我<rt lang="got">𐌻𐌹𐌼𐌰 𐍃𐌹𐌱𐌰𐌺𐌸𐌰𐌽𐌹</rt></ruby>
+                        <rt class="ipa">lmɑʔ ʃabaqtani</rt>
+                    </ruby>？”。
+                </p>
+                <p>“<ruby>嗤<rt lang="chu">Ⱍⱍⱍⱍ</rt></ruby>”，韦昌辉一矛戳去，“<ruby>拉过四李迭地<rt lang="bpmf">lgsldd</rt></ruby>？”</p>
+                <p>——《萧朝贵福音》</p>
+            </blockquote>
+            <p>“这帮说客之耻开始撒传单了”，阿里从门缝里抽出一张小广告，递给梁效。</p>
+            <hr />
+            <p>——《范版西幻设定集》第二辑草稿<a target="_blank" href="http://fanhan-inside.bitbucket.io/fantasy/fanism/v02_draft/v02-009.html">〈教宗难断家务事〉</a>（原名〈夫王妻寇兄王弟寇〉）</p>
+        </article>
+        <article class="narrate">
+            <p>“你们觉得”，<span class="adinkra">&#xE31E;</span>拿出三份报纸，法制日报、法制晚报、法制周报，“这些装饰性的题图有什么不同？”</p>
+            <p>「<ruby>马、呀忒<rt lang="egy">`mAat^</rt></ruby>」「<ruby>马、啊忒<rt lang="egy">`mAat1^</rt></ruby>」「<ruby>马、忒<rt lang="egy">`mAat2^</rt></ruby>」</p>
+            <p>“看上去像是一个东西”，<span class="adinkra">&#xE306;</span>凑过来看了一眼，“应该是当年埃及的中央政法委书记吧？”</p>
+            <p>“好像没进中央”，<span class="adinkra">&#xE344;</span>质疑，“赫尔莫波利斯、赫利奥波利斯、孟菲斯和底比斯，都没有她的位置。”</p>
+            <p>“甚至阴间都没有，阳间更没戏”，<span class="adinkra">&#xE334;</span>补充，“那时候，不仅神殿大于法，王宫也大于法。”</p>
+            <p>“这个怎么念吖？”<span class="adinkra">&#xE31F;</span>问<span class="adinkra">&#xE394;</span>。</p>
+            <p>“看转写的字母”，<span class="adinkra">&#xE394;</span>谨慎的回答<span class="adinkra">&#xE31F;</span>，“好像话说一半就要停下来打个饱嗝的样子。”</p>
+            <p>“没那么夸张”，<span class="adinkra">&#xE313;</span>插嘴，“具体到这个词，你们就当哑音<q lang="fr">h</q>后面接个嘘音<q lang="fr">h</q>好了，只要不连着念就行。”</p>
+            <p>“高，实在是高”，<span class="adinkra">&#xE306;</span>竖起大拇指，“<ruby>色目人<rt lang="fr">Sémite</rt></ruby>的嗓子眼果然名不虚传。”</p>
+            <p>“他们是<ruby>漢人<rt lang="fr">Hamite</rt></ruby>”，<span class="adinkra">&#xE313;</span>纠正。</p>
+            <p>“看那些不发音的符号，似乎表示了这个名词的定性”，<span class="adinkra">&#xE332;</span>说，“分别是人、神、禽兽。”</p>
+            <p>“竟有这样的事？”<span class="adinkra">&#xE306;</span>睁大眼睛，略微昂起头，在灯光的照射下，面具亮晶晶的，“不过这蛇……既不是飞禽也不是走兽，只不过是一条爬～虫而已嘛”。</p>
+            <p>“就是这条爬虫”，<span class="adinkra">&#xE37F;</span>冷冷的说，“撺掇夏娃向亚当吹枕边风。”</p>
+            <hr />
+            <p>——《范版西幻设定集》第二辑草稿<a target="_blank" href="http://fanhan-inside.bitbucket.io/fantasy/fanism/v02_draft/v02-010.html">〈辛巴达的名单〉（</a>原名〈父债子偿废长立幼〉）</p>
+        </article>
     </main>
     <div class="signature">
         <span class="signature">测试中……</span>
