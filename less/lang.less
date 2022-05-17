@@ -147,6 +147,14 @@
     line-height: 3rem;
 }
 
+.idiom,
+:lang(idiom) {
+    font-size: 3rem;
+    font-family: 'FanGlyph';
+    font-variant-ligatures: discretionary-ligatures;
+    line-height: 3.5rem;
+}
+
 .ipa,
 :lang(ipa) {
     font-family: CharisSIL;
@@ -229,6 +237,11 @@ rt {
     &:lang(egy) {
         color: saddlebrown;
         font-weight: bold;
+    }
+
+    &.idiom,
+    &:lang(idiom) {
+        color: sienna;
     }
 }
 
