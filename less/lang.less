@@ -1,72 +1,4 @@
-@font-face {
-    font-family: "Quivira";
-    src: local("Quivira"), url(font/Quivira.woff2) format("woff2");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "CharisSIL";
-    src: local("Charis SIL"), url(font/CharisSIL.woff2) format("woff2");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "CharisSIL";
-    src: local("Charis SIL Bold"), url(font/CharisSIL-Bold.woff2) format("woff2");
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "CharisSIL";
-    src: local("Charis SIL Italic"), url(font/CharisSIL-Italic.woff2) format("woff2");
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: "CharisSIL";
-    src: local("Charis SIL Bold Italic"), url(font/CharisSIL-BoldItalic.woff2) format("woff2");
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: "TritCoin";
-    src: url(font/FanTritCoin.woff2) format("woff2");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Adinkra";
-    src: url(font/FanAdinkra.woff2) format("woff2");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "FanVace";
-    src: url(font/FanVace.woff2) format("woff2");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "FanCunei";
-    src: url(font/FanCunei.woff2) format("woff2");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "FanGlyph";
-    src: url(font/FanGlyph.woff2) format("woff2");
-    font-weight: normal;
-    font-style: normal;
-}
+@langs: fhn, en, fr, de, it, nl, es, pt, la, da, hu, pl, lt, el, ru, sh;
 
 .quotex {
     &::before {
@@ -254,16 +186,6 @@ q {
         color: darkred;
     }
 
-    &:lang(fhn) {
-        &::before {
-            content: '『';
-        }
-
-        &::after {
-            content: '』';
-        }
-    }
-
     &:lang(ar),
     &:lang(he),
     &:lang(syc) {
@@ -277,12 +199,6 @@ q {
         &::after {
             content: '⟩';
         }
-    }
-
-    &:lang(el),
-    &:lang(ru) {
-        font-size: 1.5rem;
-        .quotex();
     }
 
     &:lang(vace),
@@ -307,4 +223,21 @@ q {
             content: none;
         }
     }
+
+    &:lang(fhn) {
+        &::before {
+            content: '『';
+        }
+
+        &::after {
+            content: '』';
+        }
+    }
+
+    each(@langs, {
+        &:lang(@{value}) {
+            font-family: 'FreeSans';
+            font-size: 112.5%;
+        }
+    });
 }
