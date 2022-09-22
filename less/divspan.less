@@ -36,21 +36,21 @@ span {
     }
 
     &.tip {
-        color: dimgray;
+        color: hsl(34, 28%, 60%);
 
         &::before {
-            content: '〔';
+            content: "｟";
         }
 
         &::after {
-            content: '〕';
+            content: "｠";
         }
     }
 
     &.math {
         display: inline-block;
         text-indent: 0;
-        font-family: 'SourceSerif';
+        font-family: "SourceSerif";
         font-size: 125%;
         margin: 1px;
         padding: 1px;
@@ -66,13 +66,13 @@ span {
 }
 
 var {
-    font-family: 'SourceSerif';
+    font-family: "SourceSerif";
     font-style: oblique;
     padding: 2px;
 }
 
 samp {
-    font-family: 'SourceCodePro';
+    font-family: "SourceCodePro";
     font-size: 100%;
     margin: 0 1px;
     padding: 1px;
@@ -89,11 +89,11 @@ kbd {
     border-radius: 3px;
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px white inset;
     display: inline-block;
-    font-family: 'SourceSans';
+    font-family: "SourceSans";
     font-size: 90%;
     line-height: 1.2;
-    margin: 0 .2rem;
-    padding: .1rem .5rem;
+    margin: 0 0.2rem;
+    padding: 0.1rem 0.5rem;
     text-shadow: 0 1px 0 white;
     text-indent: 0;
 }
@@ -104,7 +104,7 @@ code {
     color: darkred;
     margin: 0 5px;
     padding: 5px;
-    font-family: 'SourceCodePro';
+    font-family: "SourceCodePro";
     // font-size: 90%;
 }
 
@@ -121,20 +121,20 @@ pre {
         border: 1px dotted dimgray;
         background-color: black;
         color: lightgray;
-        font-family: 'SourceCodePro';
+        font-family: "SourceCodePro";
         font-size: 80%;
     }
 }
 
 time {
-    font-family: 'SourceCodePro';
+    font-family: "SourceCodePro";
 
     &::before {
-        content: '［';
+        content: "［";
     }
 
     &::after {
-        content: '］';
+        content: "］";
     }
 }
 
@@ -151,7 +151,7 @@ hr {
             content: url(image/signature.svg);
             .imginline();
         }
-        
+
         &::after {
             content: url(image/heraldry_small.svg);
             .imginline();
@@ -175,6 +175,136 @@ hr {
 
 div.flex {
     .divflex();
+}
+
+details.callout {
+    background-color: transparent;
+    box-sizing: border-box;
+    width: 90%;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid dimgray;
+    border-radius: 0.5rem;
+    border-left-width: 0.5rem;
+    box-shadow: none;
+
+    & summary {
+        background-color: transparent;
+        color: white;
+        box-sizing: border-box;
+        width: 100%;
+        min-height: 2rem;
+        margin: 0;
+        padding: 1rem;
+        border-bottom: 0.5rem solid lightgray;
+        border-radius: 0.5rem;
+
+        &::before {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 0.5rem;
+        }
+
+        // note, seealso
+        &.ad-note {
+            background-color: hsl(225, 22%, 34%);
+            border-color: hsl(218, 100%, 63%);
+            &::before {
+                content: url(image/callout/ad-note.svg);
+            }
+        }
+        // tldr, abstract, summary
+        &.ad-tldr {
+            background-color: hsl(213, 27%, 33%);
+            border-color: hsl(199, 100%, 50%);
+            &::before {
+                content: url(image/callout/ad-tldr.svg);
+            }
+        }
+        // info, todo
+        &.ad-info {
+            background-color: hsl(209, 26%, 32%);
+            border-color: hsl(188, 100%, 42%);
+            &::before {
+                content: url(image/callout/ad-info.svg);
+            }
+        }
+        &.ad-hint {
+            background-color: hsl(203, 23%, 31%);
+            border-color: hsl(172, 100%, 37%);
+            &::before {
+                content: url(image/callout/ad-hint.svg);
+            }
+        }
+        &.ad-done {
+            background-color: hsl(189, 19%, 29%);
+            border-color: hsl(145, 100%, 39%);
+            &::before {
+                content: url(image/callout/ad-done.svg);
+            }
+        }
+        &.ad-question {
+            background-color: hsl(165, 10%, 31%);
+            border-color: hsl(97, 81%, 48%);
+            &::before {
+                content: url(image/callout/ad-question.svg);
+            }
+        }
+        &.ad-warning {
+            background-color: hsl(345, 5%, 33%);
+            border-color: hsl(34, 100%, 50%);
+            &::before {
+                content: url(image/callout/ad-warning.svg);
+            }
+        }
+        &.ad-fail {
+            background-color: hsl(293, 11%, 32%);
+            border-color: hsl(0, 100%, 66%);
+            &::before {
+                content: url(image/callout/ad-fail.svg);
+            }
+        }
+        &.ad-error {
+            background-color: hsl(297, 14%, 30%);
+            border-color: hsl(348, 100%, 55%);
+            &::before {
+                content: url(image/callout/ad-error.svg);
+            }
+        }
+        &.ad-bug {
+            background-color: hsl(291, 17%, 30%);
+            border-color: hsl(339, 100%, 48%);
+            &::before {
+                content: url(image/callout/ad-bug.svg);
+            }
+        }
+        &.ad-example {
+            background-color: hsl(243, 20%, 35%);
+            border-color: hsl(256, 100%, 65%);
+            &::before {
+                content: url(image/callout/ad-example.svg);
+            }
+        }
+        &.ad-quote {
+            background-color: hsl(231, 11%, 34%);
+            border-color: hsl(0, 0%, 62%);
+            &::before {
+                content: url(image/callout/ad-quote.svg);
+            }
+        }
+    }
+
+    & footer {
+        box-sizing: border-box;
+        width: 100%;
+        border-top: 1px solid lightgray;
+        min-height: 2rem;
+        text-align: left;
+        margin: 0;
+        padding: 0.5rem;
+        color: hsl(31, 45%, 20%);
+        font-size: 0.8rem;
+    }
 }
 
 div.bulletin {
@@ -254,7 +384,6 @@ div.signature {
     }
 
     & span.signature {
-
         &::before {
             .imginline();
             content: url(image/sign_name.svg);

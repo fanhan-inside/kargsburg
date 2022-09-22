@@ -26,34 +26,116 @@
     text-emphasis: triangle;
 }
 
+/* 高亮样式 */
+.mark1st {
+    /* 粗体与高亮 */
+    background-color: rgba(240, 79, 106, 0.2);
+}
+.mark2nd {
+    /* 斜体与高亮 */
+    background-color: rgba(40, 178, 194, 0.2);
+}
+.mark3rd {
+    /* 粗并斜着，与高亮 */
+    background-color: rgba(153, 189, 136, 0.2);
+}
+
 mark {
     &:extend(.blank);
-    background-color: yellow;
+    background-color: rgba(255, 187, 0, 0.2);
+    color: hsl(31, 45%, 20%);
 
+    /* 指定底色的样式 */
+    &.yelo {
+        background-color: yellow;
+    }
     &.pink {
         background-color: hotpink;
     }
-
     &.lime {
         background-color: lime;
     }
-
     &.cyan {
         background-color: cyan;
     }
-}
+    &.teal {
+        background-color: teal;
+        color: white;
+    }
+    &.mint {
+        background-color: #52e052;
+    }
+    &.aqua {
+        background-color: #8ccbf2;
+    }
 
+    /* 组合样式 */
+    & b {
+        .mark1st();
+    }
+    & i {
+        .mark2nd();
+    }
+    & b i,
+    & i b {
+        .mark3rd();
+    }
+}
 
 b {
     font-weight: bold;
+    color: hsl(4, 72%, 55%);
+
+    & i {
+        color: hsl(32, 55%, 12%);
+
+        & mark {
+            .mark3rd();
+        }
+    }
+
+    & mark {
+        .mark1st();
+
+        & i {
+            .mark3rd();
+        }
+    }
 }
 
 i {
     font-style: oblique;
+    color: hsl(205, 66%, 46%);
+
+    & b {
+        color: hsl(32, 55%, 12%);;
+
+        & mark {
+            .mark3rd();
+        }
+    }
+
+    & mark {
+        .mark2nd();
+
+        & b {
+            .mark3rd();
+        }
+    }
 }
 
 u {
     text-decoration: solid underline;
+
+    /* two styles of «Pelikan m205 DUO highlighter» */
+    &.gelb {
+        text-decoration-color: yellow;
+        text-decoration-thickness: 5px;
+    }
+    &.grun {
+        text-decoration-color: lime;
+        text-decoration-thickness: 5px;
+    }
 }
 
 em {
@@ -82,6 +164,7 @@ del {
     &:extend(.blank);
     text-decoration: black double line-through;
     text-decoration-color: red;
+    color: hsl(34, 37%, 70%);
 
     &.strong {
         text-decoration-color: blue;
@@ -100,21 +183,20 @@ ins {
     }
 }
 
+dfn {
+    &:extend(.blank);
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    text-emphasis: none;
+    border-bottom: 1px solid green;
+}
+
 cite {
     &:extend(.blank);
     font-style: normal;
     text-decoration: none;
     border-bottom: 1px solid blue;
-    -webkit-text-emphasis: none;
-    text-emphasis: none;
-}
-
-dfn {
-    &:extend(.blank);
-    font-style: normal;
-    text-decoration: none;
-    border-bottom: 1px solid green;
-    -webkit-text-emphasis: none;
     text-emphasis: none;
 }
 
@@ -123,7 +205,6 @@ abbr {
     font-style: normal;
     text-decoration: none;
     border-bottom: 1px solid red;
-    -webkit-text-emphasis: none;
     text-emphasis: none;
 
     &.uid {
@@ -133,12 +214,12 @@ abbr {
         border: none;
 
         &::before {
-            content: '｛';
+            content: "｛";
             margin: 0 1px;
         }
 
         &::after {
-            content: '｝';
+            content: "｝";
             margin: 0 1px;
         }
     }
@@ -151,12 +232,12 @@ abbr {
         color: blue;
 
         &::before {
-            content: '〔';
+            content: "〖";
             margin: 0 1px;
         }
 
         &::after {
-            content: '〕';
+            content: "〗";
             margin: 0 1px;
         }
     }
