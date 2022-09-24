@@ -42,7 +42,7 @@
 
 mark {
     &:extend(.blank);
-    background-color: rgba(255, 187, 0, 0.2);
+    background-color: lightsalmon;/*rgba(255, 187, 0, 0.2);*/
     color: hsl(31, 45%, 20%);
 
     /* 指定底色的样式 */
@@ -70,58 +70,27 @@ mark {
     }
 
     /* 组合样式 */
-    & b {
+    & strong {
         .mark1st();
     }
-    & i {
+    & em {
         .mark2nd();
     }
-    & b i,
-    & i b {
+    & strong em,
+    & em strong {
         .mark3rd();
     }
 }
 
 b {
+    font-family: 'CascadiaMono';
     font-weight: bold;
-    color: hsl(4, 72%, 55%);
-
-    & i {
-        color: hsl(32, 55%, 12%);
-
-        & mark {
-            .mark3rd();
-        }
-    }
-
-    & mark {
-        .mark1st();
-
-        & i {
-            .mark3rd();
-        }
-    }
 }
 
 i {
-    font-style: oblique;
-    color: hsl(205, 66%, 46%);
-
-    & b {
-        color: hsl(32, 55%, 12%);;
-
-        & mark {
-            .mark3rd();
-        }
-    }
-
-    & mark {
-        .mark2nd();
-
-        & b {
-            .mark3rd();
-        }
-    }
+    color: teal;
+    font-family: 'VictorMono';
+    font-style: italic;
 }
 
 u {
@@ -141,12 +110,44 @@ u {
 em {
     font-style: normal;
     color: blue;
+
+    & strong {
+        color: hsl(32, 55%, 12%);;
+
+        & mark {
+            .mark3rd();
+        }
+    }
+
+    & mark {
+        .mark2nd();
+
+        & strong {
+            .mark3rd();
+        }
+    }
 }
 
 strong {
     font-weight: bold;
     font-style: normal;
     color: red;
+
+    & em {
+        color: hsl(32, 55%, 12%);
+
+        & mark {
+            .mark3rd();
+        }
+    }
+
+    & mark {
+        .mark1st();
+
+        & em {
+            .mark3rd();
+        }
+    }
 }
 
 s {
