@@ -42,7 +42,7 @@
 
 mark {
     &:extend(.blank);
-    background-color: lightsalmon;/*rgba(255, 187, 0, 0.2);*/
+    background-color: #f5f58f; /*rgba(255, 187, 0, 0.2);*/
     color: hsl(31, 45%, 20%);
 
     /* 指定底色的样式 */
@@ -83,13 +83,13 @@ mark {
 }
 
 b {
-    font-family: 'CascadiaMono';
+    font-family: "VictorMono";
     font-weight: bold;
 }
 
 i {
     color: teal;
-    font-family: 'VictorMono';
+    font-family: "VictorMono";
     font-style: italic;
 }
 
@@ -108,11 +108,12 @@ u {
 }
 
 em {
+    font-family: "IBM Plex Sans";
     font-style: normal;
     color: blue;
 
     & strong {
-        color: hsl(32, 55%, 12%);;
+        color: hsl(32, 55%, 12%);
 
         & mark {
             .mark3rd();
@@ -129,6 +130,7 @@ em {
 }
 
 strong {
+    font-family: "IBM Plex Sans";
     font-weight: bold;
     font-style: normal;
     color: red;
@@ -149,6 +151,23 @@ strong {
         }
     }
 }
+
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+/* 仿上记字母文字先例换字体 */
+b:lang(ja),
+i:lang(ja),
+em:lang(ja),
+strong:lang(ja) {
+    font-family: "IBM Plex Sans JP";
+}
+
+b:lang(kr),
+i:lang(kr),
+em:lang(kr),
+strong:lang(kr) {
+    font-family: "IBM Plex Sans KR";
+}
+/* ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ */
 
 s {
     &:extend(.blank);
@@ -186,7 +205,7 @@ ins {
 
 dfn {
     &:extend(.blank);
-    font-weight: bold;
+    font-weight: normal;
     font-style: normal;
     text-decoration: none;
     text-emphasis: none;
