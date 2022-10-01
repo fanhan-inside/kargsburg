@@ -38,7 +38,7 @@ blockquote {
 
     &.pink {
         background-color: #fcf2f2;
-        border-color: #dFb5b4;
+        border-color: #dfb5b4;
     }
 
     &.cyan {
@@ -47,8 +47,8 @@ blockquote {
     }
 
     &.lime {
-        background-color: #CDF7CD;
-        border-color: #00A500;
+        background-color: #cdf7cd;
+        border-color: #00a500;
     }
 
     &.yelo {
@@ -71,4 +71,132 @@ article blockquote.lime,
 article blockquote.yelo,
 article blockquote {
     .quotein();
+}
+
+details.callout {
+    background-color: rgb(32, 32, 32);
+    color: rgb(223, 223, 223);
+    margin: 1rem auto;
+    // padding: 1rem;
+    border-left: 5px solid dimgray;
+    border-right: 5px solid dimgray;
+    border-radius: 10px;
+
+    & p {
+        margin: 1rem;
+    }
+
+    & summary {
+        color: white;
+        min-height: 2rem;
+        margin: 0;
+        padding: 1rem;
+        border-bottom: 3px double lightgray;
+
+        &::before {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 0.5rem;
+        }
+
+        // note, seealso
+        &.ad-note {
+            background-color: hsl(225, 22%, 34%);
+            border-color: hsl(218, 100%, 63%);
+            &::before {
+                content: url(image/callout/ad-note.svg);
+            }
+        }
+        // tldr, abstract, summary
+        &.ad-tldr {
+            background-color: hsl(213, 27%, 33%);
+            border-color: hsl(199, 100%, 50%);
+            &::before {
+                content: url(image/callout/ad-tldr.svg);
+            }
+        }
+        // info, todo
+        &.ad-info {
+            background-color: hsl(209, 26%, 32%);
+            border-color: hsl(188, 100%, 42%);
+            &::before {
+                content: url(image/callout/ad-info.svg);
+            }
+        }
+        &.ad-hint {
+            background-color: hsl(203, 23%, 31%);
+            border-color: hsl(172, 100%, 37%);
+            &::before {
+                content: url(image/callout/ad-hint.svg);
+            }
+        }
+        &.ad-done {
+            background-color: hsl(189, 19%, 29%);
+            border-color: hsl(145, 100%, 39%);
+            &::before {
+                content: url(image/callout/ad-done.svg);
+            }
+        }
+        &.ad-question {
+            background-color: hsl(165, 10%, 31%);
+            border-color: hsl(97, 81%, 48%);
+            &::before {
+                content: url(image/callout/ad-question.svg);
+            }
+        }
+        &.ad-warning {
+            background-color: hsl(345, 5%, 33%);
+            border-color: hsl(34, 100%, 50%);
+            &::before {
+                content: url(image/callout/ad-warning.svg);
+            }
+        }
+        &.ad-fail {
+            background-color: hsl(293, 11%, 32%);
+            border-color: hsl(0, 100%, 66%);
+            &::before {
+                content: url(image/callout/ad-fail.svg);
+            }
+        }
+        &.ad-error {
+            background-color: hsl(297, 14%, 30%);
+            border-color: hsl(348, 100%, 55%);
+            &::before {
+                content: url(image/callout/ad-error.svg);
+            }
+        }
+        &.ad-bug {
+            background-color: hsl(291, 17%, 30%);
+            border-color: hsl(339, 100%, 48%);
+            &::before {
+                content: url(image/callout/ad-bug.svg);
+            }
+        }
+        &.ad-example {
+            background-color: hsl(243, 20%, 35%);
+            border-color: hsl(256, 100%, 65%);
+            &::before {
+                content: url(image/callout/ad-example.svg);
+            }
+        }
+        &.ad-quote {
+            background-color: hsl(231, 11%, 34%);
+            border-color: hsl(0, 0%, 62%);
+            &::before {
+                content: url(image/callout/ad-quote.svg);
+            }
+        }
+    }
+
+    & footer {
+        box-sizing: border-box;
+        width: 100%;
+        border-top: 1px solid lightgray;
+        min-height: 2rem;
+        text-align: left;
+        margin: 0;
+        padding: 0.5rem;
+        color: hsl(31, 45%, 20%);
+        font-size: 0.8rem;
+    }
 }
