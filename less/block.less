@@ -79,12 +79,12 @@ details.callout blockquote {
 }
 
 details.callout {
-    background-color: rgb(32, 32, 32);
-    color: rgb(223, 223, 223);
+    background-color: white;
     margin: 1rem auto;
-    padding-bottom: 1rem;
+    // padding-bottom: 1rem;
     border-left: 5px solid dimgray;
     border-right: 5px solid dimgray;
+    border-bottom: 1px dashed dimgray;
     border-radius: 10px;
 
     & p {
@@ -93,9 +93,9 @@ details.callout {
 
     & summary {
         color: white;
-        min-height: 2rem;
+        min-height: 20px;
         margin: 0;
-        padding: 1rem;
+        padding: 4px;
         border-bottom: 3px double lightgray;
 
         &::before {
