@@ -1,5 +1,7 @@
 image: node:latest
 pages:
+  script:
+    - echo "go..."
   artifacts:
     paths:
     - ./
